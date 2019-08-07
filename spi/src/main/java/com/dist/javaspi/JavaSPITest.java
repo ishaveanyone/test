@@ -1,8 +1,5 @@
-import com.dist.Bumblebee;
-import com.dist.OptimusPrime;
-import com.dist.Robot;
+package com.dist.javaspi;
 
-import java.util.Iterator;
 import java.util.ServiceLoader;
 
 /**
