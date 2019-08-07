@@ -6,4 +6,5 @@ package com.dist;
 public interface Robot {
 
     void sayHello();
+
 }

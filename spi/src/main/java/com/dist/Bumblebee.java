@@ -7,5 +7,5 @@ public class Bumblebee implements Robot {
 
     public void sayHello() {
         System.out.println(1);
-}
+    }
 }
