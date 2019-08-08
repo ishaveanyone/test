@@ -7,14 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * Company: 上海数慧系统技术有限公司
- * Department: 数据中心
- * Date: 2019-08-07 16:34
- * Author: xupp
- * Email: xupp@dist.com.cn
- * Desc：
- */
+
 public class TestChange {
     static  Mapper mapper=new DozerBeanMapper();
 

@@ -12,14 +12,7 @@ import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-/**
- * Company: 上海数慧系统技术有限公司
- * Department: 数据中心
- * Date: 2019-08-07 17:23
- * Author: xupp
- * Email: xupp@dist.com.cn
- * Desc：
- */
+
 public class MyDozerBeanMapper {
 
     private Mapper mapper=new DozerBeanMapper();
