@@ -1,0 +1,7 @@
+temp_file_store_path: G:/data/appfiles/
+temp_file_merge_path: G:/data/merge/
+spring:
+  servlet:
+    multipart:
+      max-file-size: 3000MB
+      max-request-size: 10000MB #总上传数据文件大小
