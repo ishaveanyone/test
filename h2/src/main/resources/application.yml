@@ -1,0 +1,27 @@
+spring:
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        web-allow-others: true
+  datasource:
+    platform: h2
+#    url: jdbc:h2:tcp://localhost//F:/h2database/H2/test #服务器模式  会持久数据到磁盘
+    username: sa
+    password:
+    schema: classpath:schema.sql
+    data: classpath:data.sql
+#    url: jdbc:h2:mem:testdb # 使用内嵌模式 可以不写 如果 <databaseName> 不写，则每次创建链接都是新的数据库。 这个模式可以作为一些关系较为复杂的对象模型的数据的缓存，比如一些不经常改变但是经常查找的数据我可以先从这个数据库查找 而后 从 数据库查找
+
+    #混合模式：该模式，集合了嵌入模式和服务模式的优点。他使得数据库性能和嵌入模式一样，同时又支出多个程序一同连接。
+    #背后实现：如果你是第一个连接该数据库的程序，那么你相当于是用嵌入模式连接数据库。如果你是第二个或者之后连接的数据库，
+    #那么你就相当于是用服务模式连接的数据库。
+    #URL：jdbc:h2:~/test;AUTO_SERVER=TRUE 会持久化数据到本地的数据库
+    url: jdbc:h2:tcp://localhost//F:/h2database/H2/test;AUTO_SERVER=TRUE

@@ -1,0 +1,1 @@
+CREATE  TABLE if not EXISTS USER(id int PRIMARY key,name VARCHAR);
