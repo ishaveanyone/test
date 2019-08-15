@@ -1,4 +1,9 @@
 试图实现对 异步的控制 实现后台的能够 控制线程的 执行 ，并且 通过前端异步的方式可以实现 实时把处理数据进行返回
+线程池执行 一个任务的过程 如下 
+![avatar](https://i.loli.net/2019/05/08/5cd1d2ac0936c.jpg)
+线程池中状态变化
+![avatar](https://i.loli.net/2019/05/08/5cd1d2aa81655.jpg)
+
 
 ## Callable
     1.5 之前 我们运行的实质的 有 runnable 接口中的run方法进行调用 并且进行数据返回的
@@ -31,7 +36,48 @@
 
 ##  Executors
     是更上一层的容器 可以返回特定的线程池实例
+    
+##  ThreadPoolExecutor
+    最基本的线程池， Executors框架提供的各种线程池类 都是通过 这个线程池 实现出来的 
+    corePoolSize
+    
+    核心线程数，默认情况下核心线程会一直存活，即使处于闲置状态也不会受存keepAliveTime限制。除非将allowCoreThreadTimeOut设置为true。
+    
+    maximumPoolSize
+    
+    线程池所能容纳的最大线程数。超过这个数的线程将被阻塞。当任务队列为没有设置大小的LinkedBlockingDeque时，这个值无效。
+    
+    keepAliveTime
+    
+    非核心线程的闲置超时时间，超过这个时间就会被回收。
+    
+    unit
+    
+    指定keepAliveTime的单位，如TimeUnit.SECONDS。当将allowCoreThreadTimeOut设置为true时对corePoolSize生效。
+    
+    workQueue
+    
+    线程池中的任务队列.
+    
+    常用的有三种队列，SynchronousQueue,LinkedBlockingDeque,ArrayBlockingQueue。
+    
+    threadFactory
+    
+    线程工厂，提供创建新线程的功能。ThreadFactory是一个接口，只有一个方法
+
      
+## 如何配置线程
+流程聊完了再来看看上文提到了几个核心参数应该如何配置呢？
+
+有一点是肯定的，线程池肯定是不是越大越好。
+
+通常我们是需要根据这批任务执行的性质来确定的。
+
+IO 密集型任务：由于线程并不是一直在运行，所以可以尽可能的多配置线程，比如 CPU 个数 * 2
+CPU 密集型任务（大量复杂的运算）应当分配较少的线程，比如 CPU 个数相当的大小。
+
+##  使用 actuator 进行线程的监控 
+##  使用 hystrix  实现线程的隔离
 
     
     
