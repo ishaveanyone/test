@@ -65,7 +65,7 @@ public class QuartzTest {
                     .forJob("job2","group1")
                     .startNow()
                     .withSchedule(SimpleScheduleBuilder.simpleSchedule()
-                            .withIntervalInSeconds(5).withRepeatCount(10)
+                            .withIntervalInSeconds(1).withRepeatCount(10)
                     )
                    /*
                     * 如果多个trigger 同一个时刻 同时执行的 时候 priori 高的先执行
@@ -73,8 +73,8 @@ public class QuartzTest {
                     * fire time, the scheduler will fire the one with the highest priority
                     * first.
                     * */
-                    .withPriority(7)
-                    .modifiedByCalendar("myHoliday") // but not on holidays
+//                    .withPriority(7)
+//                    .modifiedByCalendar("myHoliday") // but not on holidays
                     .build();
             Set<Trigger> triggers=new HashSet<Trigger>(){{
                 add(trigger);add(trigger2);
@@ -88,7 +88,7 @@ public class QuartzTest {
              */
             // Tell quartz to schedule the job using our trigger
             Map<JobDetail, Set<? extends Trigger>> triggersAndJobs =new HashMap<JobDetail, Set<? extends Trigger>>();
-            triggersAndJobs.put(job1,new HashSet<Trigger>(){{add(trigger);}});
+//            triggersAndJobs.put(job1,new HashSet<Trigger>(){{add(trigger);}});
             triggersAndJobs.put(job2,new HashSet<Trigger>(){{add(trigger2);}});
             scheduler.scheduleJobs(triggersAndJobs,false);
 //            scheduler.shutdown();
