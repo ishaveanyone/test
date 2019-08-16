@@ -9,7 +9,9 @@
 <i><b>关于使用 前面的两种方式 可以参靠我的另外一个仓库地址https://github.com/ishaveanyone/libreoffice</b></i>
     
 3. 使用oracle 一个转换工具 （工具已经打包 pdfconverter.rar 修改px.cfg 文件中的exe位置）
-    
+    链接：https://pan.baidu.com/s/1AaVdEdB_CTvM_YgcRug3HA 
+    提取码：nqz9 
+    复制这段内容后打开百度网盘手机App，操作更方便哦
 
 4. 使用office online 需要安装服务 安装weboffice 文档
 
