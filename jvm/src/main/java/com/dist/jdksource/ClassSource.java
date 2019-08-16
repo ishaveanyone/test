@@ -37,6 +37,10 @@ class A implements P{
 
     private String name;
 }
+
+@interface Ann{
+
+}
 public class ClassSource {
 
 
@@ -61,8 +65,24 @@ public class ClassSource {
 
         A[] as=new A[1];
         System.out.println(as.getClass().isArray());
+        //是不是原始类型
+        System.out.println(short.class.isPrimitive());
 
-        System.out.println(Integer.valueOf(1).getClass().isPrimitive());
+        System.out.println(Ann.class.isAnnotation());
+
+        System.out.println(A.class.getName());
+        //app 加载器
+        System.out.println(A.class.getClassLoader());
+
+        System.out.println(A.class.getTypeParameters());
+
+        System.out.println(A.class.getSuperclass());
+
+        System.out.println(A.class.getGenericSuperclass());
+
+        System.out.println(A.class.getPackage());
+
+        System.out.println(A.class.getInterfaces());
 
     }
 
