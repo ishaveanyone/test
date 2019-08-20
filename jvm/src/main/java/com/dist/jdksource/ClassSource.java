@@ -1,5 +1,8 @@
 package com.dist.jdksource;
 
+import java.lang.annotation.*;
+import java.util.Arrays;
+
 /**
  * Company: 上海数慧系统技术有限公司
  * Department: 数据中心
@@ -38,6 +41,8 @@ class A implements P{
     private String name;
 }
 
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
 @interface Ann{
 
 }
@@ -83,6 +88,13 @@ public class ClassSource {
         System.out.println(A.class.getPackage());
 
         System.out.println(A.class.getInterfaces());
+
+        System.out.println(A.class.isLocalClass());
+
+        System.out.println(A.class.isMemberClass());
+        Class clazz2 =Target.class;
+        Arrays.asList(Ann.class.getAnnotations()).forEach(annotation -> {
+        });
 
     }
 
