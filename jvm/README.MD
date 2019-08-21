@@ -102,3 +102,4 @@ AnnotatedElement接口是所有程序元素（Class、Method和Constructor）的
 方法4：Annotation[] getDeclaredAnnotations()：返回直接存在于此元素上的所有注释。与此接口中的其他方法不同，该方法将忽略继承的注释。（如果没有注释直接存在于此元素上，则返回长度为零的一个数组。）该方法的调用者可以随意修改返回的数组；这不会对其他调用者返回的数组产生任何影响。
 ##  关于jmx 
 https://www.cnblogs.com/dongguacai/p/5900507.html
+http://www.paraller.com/2017/05/22/JMX%E7%9A%84%E7%90%86%E8%A7%A3%E4%B8%8E%E5%AE%9E%E9%99%85%E7%94%A8%E9%80%94/

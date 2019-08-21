@@ -20,7 +20,7 @@ import java.rmi.registry.Registry;
  * Desc：
  */
 
-public class HelloAgent
+public class Agent
 {
     public static void main(String[] args) throws JMException, Exception
     {
@@ -40,11 +40,16 @@ public class HelloAgent
     {
         MBeanServer server = ManagementFactory.getPlatformMBeanServer();
         ObjectName helloName = new ObjectName("jmxBean:name=hello");
+        ObjectName testName = new ObjectName("jmxBean:name=test");
         //create mbean and register mbean
-        server.registerMBean(new Hello(), helloName);
+        server.registerMBean(new Test(), testName);
 
-        ObjectName adapterName = new ObjectName("HelloAgent:name=htmladapter,port=8082");
+        server.registerMBean(new Hello(), helloName);
+        // 下面的默认端口是8082
+        ObjectName adapterName = new ObjectName("Agent:name=htmladapter");
+
         HtmlAdaptorServer adapter = new HtmlAdaptorServer();
+        adapter.setPort(8087);//如果要修改端口 这样修改
         server.registerMBean(adapter, adapterName);
         adapter.start();
     }
