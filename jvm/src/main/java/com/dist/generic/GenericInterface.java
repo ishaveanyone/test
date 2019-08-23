@@ -42,7 +42,7 @@ class FruitGenerator<T> implements GenericInterface<T>{
 }
 
 /**
- * 不需要在实现类指定 否则使用的时候回报错
+ * 如果 已经制定泛型类型 一定要在父类上面制定
  */
 class FruitGenerator2 implements GenericInterface<String> {
 

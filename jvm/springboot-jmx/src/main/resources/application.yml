@@ -1,0 +1,10 @@
+jmx:
+  rmi:
+    host: 127.0.0.1
+    port: 7077
+    service:
+      domain: jmxrmi
+spring:
+  jmx:
+    enabled: true
+

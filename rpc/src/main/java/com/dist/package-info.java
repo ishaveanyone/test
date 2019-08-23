@@ -1,16 +1,9 @@
-package com.dist.jdksource.lang;
-
 /**
  * Company: 上海数慧系统技术有限公司
  * Department: 数据中心
- * Date: 2019-08-19 17:37
+ * Date: 2019-08-22 15:24
  * Author: xupp
  * Email: xupp@dist.com.cn
- * Desc：String 源码阅读
+ * Desc： rpc 主要是数据 的 结构 定义 protobuf json 等等
  */
-public class String {
-
-    String
-
-
-}
+package com.dist;

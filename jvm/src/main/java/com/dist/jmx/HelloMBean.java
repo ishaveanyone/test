@@ -5,12 +5,14 @@ import java.util.List;
 
 public interface HelloMBean
 {
+
     public Integer getA();
 
     public void setA(Integer a);
-    public List<String> getData();
-    public void setData(List<String> data);
 
+    public List<String> getData();
+
+    public void setData(List<String> data);
 
     public String getName();
 
@@ -31,4 +33,5 @@ public interface HelloMBean
     public void add(String ele);
 
     public void out();
+
 }

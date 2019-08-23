@@ -24,6 +24,7 @@ public class Agent
 {
     public static void main(String[] args) throws JMException, Exception
     {
+
         web();
     }
 
@@ -40,7 +41,7 @@ public class Agent
     {
         MBeanServer server = ManagementFactory.getPlatformMBeanServer();
         ObjectName helloName = new ObjectName("jmxBean:name=hello");
-        ObjectName testName = new ObjectName("jmxBean:name=test");
+        ObjectName testName = new ObjectName("jmxBean:name=Test");
         //create mbean and register mbean
         server.registerMBean(new Test(), testName);
 
@@ -53,4 +54,5 @@ public class Agent
         server.registerMBean(adapter, adapterName);
         adapter.start();
     }
+
 }
