@@ -15,4 +15,6 @@ public class StringBak {
         String s="2019-07-24 09:06:45.0";
         System.out.println(s.substring(0,s.indexOf(" ")+1));
     }
+
+    
 }

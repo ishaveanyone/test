@@ -3,6 +3,9 @@ package com.dist;
 import org.quartz.*;
 
 import javax.naming.Name;
+import java.util.Arrays;
+import java.util.Random;
+import java.util.Scanner;
 
 
 public class HelloJob implements Job {
@@ -30,7 +33,17 @@ public class HelloJob implements Job {
 
         System.err.println("Instance " + jobkey+"-"+triggerkey + " of DumbJob says: " +
                 jobSays + ", and val is: " + myFloatValue+" name:"+name+ " tri:"+tri);
+        String[] strs={"1","2"};
+            String.join(",",strs);
+
+        Arrays.asList();
+    }
 
 
+    public static void main(String[] args) {
+
+
+        Random rand = new Random();
+        System.out.println(rand.nextInt(1));
     }
 }
