@@ -6,4 +6,4 @@
  * Email: xupp@dist.com.cn
  * Desc： rpc 主要是数据 的 结构 定义 protobuf json 等等
  */
-package com.dist;
+package dist;

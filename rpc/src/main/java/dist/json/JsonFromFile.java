@@ -1,4 +1,4 @@
-package com.dist.json;
+package dist.json;
 
 import com.alibaba.fastjson.JSON;
 
@@ -31,5 +31,6 @@ public class JsonFromFile {
             System.out.println(JSON.parseObject(jsonStr).toJSONString());
         }catch (IOException e){
         }
+        
     }
 }
