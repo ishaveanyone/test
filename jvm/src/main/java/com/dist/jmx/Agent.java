@@ -1,3 +1,4 @@
+/*
 package com.dist.jmx;
 
 import com.sun.jdmk.comm.HtmlAdaptorServer;
@@ -11,6 +12,7 @@ import java.lang.management.ManagementFactory;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
+*/
 /**
  * Company: 上海数慧系统技术有限公司
  * Department: 数据中心
@@ -18,7 +20,8 @@ import java.rmi.registry.Registry;
  * Author: xupp
  * Email: xupp@dist.com.cn
  * Desc：
- */
+ *//*
+
 
 public class Agent
 {
@@ -56,3 +59,4 @@ public class Agent
     }
 
 }
+*/

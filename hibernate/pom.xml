@@ -28,7 +28,7 @@
             <dependencies>
                 <dependency>
                     <groupId>javax.servlet</groupId>
-                    <artifactId>javax.servlet-api</artifactId>
+                    <artifactId>javax.servlet-com.dist.api</artifactId>
                 </dependency>
                 <dependency>
                     <groupId>org.springframework.boot</groupId>
@@ -48,7 +48,7 @@
             <dependencies>
                 <dependency>
                     <groupId>javax.servlet</groupId>
-                    <artifactId>javax.servlet-api</artifactId>
+                    <artifactId>javax.servlet-com.dist.api</artifactId>
                 </dependency>
 				<dependency>
 					<groupId>org.springframework.boot</groupId>

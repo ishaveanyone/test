@@ -1,5 +1,8 @@
 package com.dist.jdksource.lang;
 
+
+
+
 /**
  * Company: 上海数慧系统技术有限公司
  * Department: 数据中心
@@ -14,6 +17,8 @@ public class StringBak {
     public static void main(String[] args) {
         String s="2019-07-24 09:06:45.0";
         System.out.println(s.substring(0,s.indexOf(" ")+1));
+        char[] chars={'1','3','5','6'};
+        System.out.println(new String(chars,1,2).toString());
     }
 
     
