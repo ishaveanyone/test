@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.util.Date;
 
 /**
  * Company: 上海数慧系统技术有限公司
@@ -40,5 +41,9 @@ public class User {
     @Override
     public String toString() {
         return "id:"+this.id+" name:"+this.name;
+    }
+
+    public static void main(String[] args) {
+        System.out.println((new Date()).getTime());
     }
 }
