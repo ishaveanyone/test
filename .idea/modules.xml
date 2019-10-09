@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/akka/akka.iml" filepath="$PROJECT_DIR$/akka/akka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/client/client.iml" filepath="$PROJECT_DIR$/springcloud/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nosql/mongo/javamongo/javamongo.iml" filepath="$PROJECT_DIR$/nosql/mongo/javamongo/javamongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jvm/jvm.iml" filepath="$PROJECT_DIR$/jvm/jvm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nosql/mongo/mongo.iml" filepath="$PROJECT_DIR$/nosql/mongo/mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nosql/nosql.iml" filepath="$PROJECT_DIR$/nosql/nosql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/skill-pool.iml" filepath="$PROJECT_DIR$/.idea/skill-pool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/springcloud.iml" filepath="$PROJECT_DIR$/springcloud/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springdubbo/springdubbo.iml" filepath="$PROJECT_DIR$/springdubbo/springdubbo.iml" />
+    </modules>
+  </component>
+</project>
