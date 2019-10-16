@@ -1,0 +1,30 @@
+
+buildscript {
+
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+
+}
+
+//所有的包括 root 模块本身
+allprojects {
+    group 'com.dist'
+    version '1.0-SNAPSHOT'
+}
+//配置所有子模块公用
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'idea'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+
+
+}

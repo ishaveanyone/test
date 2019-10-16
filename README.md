@@ -6,7 +6,9 @@
 ## 学习的技术
 Disruptor
 https://www.cnblogs.com/cyfonly/p/5800758.html
-
+### 需要加强
+23种设计模式 
+https://www.zhihu.com/question/21416727
 
 
 

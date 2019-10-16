@@ -11,6 +11,9 @@
         <option value="$PROJECT_DIR$/nosql/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud/pom.xml" />
         <option value="$PROJECT_DIR$/springdubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/asyc/pom.xml" />
+        <option value="$PROJECT_DIR$/rmi/pom.xml" />
+        <option value="$PROJECT_DIR$/pgsql/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

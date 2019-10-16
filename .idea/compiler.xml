@@ -7,8 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jdk7" />
+        <module name="asyc" />
         <module name="javamongo" />
         <module name="akka" />
+        <module name="pgsql" />
+        <module name="rmi" />
         <module name="recursive" />
         <module name="client" />
         <module name="springdubbo" />
@@ -16,7 +19,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="akka" target="1.8" />
+      <module name="asyc" target="1.8" />
       <module name="client" target="1.6" />
+      <module name="com.dist.servelt.main" target="1.8" />
+      <module name="com.dist.servelt.test" target="1.8" />
       <module name="eureka1" target="1.6" />
       <module name="eureka2" target="1.6" />
       <module name="javamongo" target="1.8" />
@@ -24,15 +30,30 @@
       <module name="jvm" target="1.8" />
       <module name="mongo" target="1.5" />
       <module name="mongojava" target="1.8" />
+      <module name="MyHttpServer.main" target="1.8" />
+      <module name="MyHttpServer.test" target="1.8" />
+      <module name="MyHttpServletContainer.main" target="1.8" />
+      <module name="MyHttpServletContainer.test" target="1.8" />
       <module name="nosql" target="1.5" />
+      <module name="pgsql" target="1.8" />
+      <module name="practice.fileserver.main" target="1.8" />
+      <module name="practice.fileserver.test" target="1.8" />
       <module name="recursive" target="1.8" />
+      <module name="rmi" target="1.8" />
+      <module name="servelt.main" target="1.8" />
+      <module name="servelt.test" target="1.8" />
       <module name="springcloud" target="1.5" />
       <module name="springdubbo" target="1.8" />
+      <module name="test.juintest.main" target="1.8" />
+      <module name="test.juintest.test" target="1.8" />
+      <module name="test.main" target="1.8" />
+      <module name="test.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="client" options="" />
+      <module name="pgsql" options="-parameters" />
       <module name="springdubbo" options="-parameters" />
     </option>
   </component>

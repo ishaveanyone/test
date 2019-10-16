@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":fileserver" external.linked.project.path="$MODULE_DIR$/../../../practice/fileserver" external.root.project.path="$MODULE_DIR$/../../../practice" external.system.id="GRADLE" external.system.module.group="com.dist" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../../servelt" rootProjectPath="$MODULE_DIR$/../../../servelt" />
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../practice/fileserver">
+      <excludeFolder url="file://$MODULE_DIR$/../../../practice/fileserver/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../practice/fileserver/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

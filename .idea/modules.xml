@@ -2,17 +2,39 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyHttpServer.iml" filepath="$PROJECT_DIR$/.idea/modules/MyHttpServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyHttpServer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MyHttpServer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyHttpServer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MyHttpServer.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyHttpServletContainer.iml" filepath="$PROJECT_DIR$/.idea/modules/MyHttpServletContainer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyHttpServletContainer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MyHttpServletContainer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyHttpServletContainer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MyHttpServletContainer.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/akka/akka.iml" filepath="$PROJECT_DIR$/akka/akka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asyc/asyc.iml" filepath="$PROJECT_DIR$/asyc/asyc.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/client/client.iml" filepath="$PROJECT_DIR$/springcloud/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.dist.servelt.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.dist.servelt.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.dist.servelt.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.dist.servelt.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/nosql/mongo/javamongo/javamongo.iml" filepath="$PROJECT_DIR$/nosql/mongo/javamongo/javamongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jvm/jdk7/jdk7.iml" filepath="$PROJECT_DIR$/jvm/jdk7/jdk7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/juintest.iml" filepath="$PROJECT_DIR$/.idea/modules/juintest.iml" />
       <module fileurl="file://$PROJECT_DIR$/jvm/jvm.iml" filepath="$PROJECT_DIR$/jvm/jvm.iml" />
       <module fileurl="file://$PROJECT_DIR$/nosql/mongo/mongo.iml" filepath="$PROJECT_DIR$/nosql/mongo/mongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/nosql/nosql.iml" filepath="$PROJECT_DIR$/nosql/nosql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pgsql/pgsql.iml" filepath="$PROJECT_DIR$/pgsql/pgsql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fileserver/practice.fileserver.iml" filepath="$PROJECT_DIR$/.idea/modules/fileserver/practice.fileserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fileserver/practice.fileserver.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fileserver/practice.fileserver.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fileserver/practice.fileserver.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fileserver/practice.fileserver.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/jvm/recursive/recursive.iml" filepath="$PROJECT_DIR$/jvm/recursive/recursive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rmi/rmi.iml" filepath="$PROJECT_DIR$/rmi/rmi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/servelt.iml" filepath="$PROJECT_DIR$/.idea/modules/servelt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/servelt.main.iml" filepath="$PROJECT_DIR$/.idea/modules/servelt.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/servelt.test.iml" filepath="$PROJECT_DIR$/.idea/modules/servelt.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/skill-pool.iml" filepath="$PROJECT_DIR$/.idea/skill-pool.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/springcloud.iml" filepath="$PROJECT_DIR$/springcloud/springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/springdubbo/springdubbo.iml" filepath="$PROJECT_DIR$/springdubbo/springdubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test.iml" filepath="$PROJECT_DIR$/.idea/modules/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/juintest/test.juintest.iml" filepath="$PROJECT_DIR$/.idea/modules/juintest/test.juintest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/juintest/test.juintest.main.iml" filepath="$PROJECT_DIR$/.idea/modules/juintest/test.juintest.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/juintest/test.juintest.test.iml" filepath="$PROJECT_DIR$/.idea/modules/juintest/test.juintest.test.iml" />
     </modules>
   </component>
 </project>
