@@ -1,7 +1,7 @@
 package com.dist.jdksource.lang;
 
 
-
+import org.junit.Test;
 
 /**
  * Company: 上海数慧系统技术有限公司
@@ -35,7 +35,19 @@ public class StringBak {
         System.out.println(str3.hashCode());
         System.out.println(str1.intern()==str1);
         System.out.println(str3.intern()==str3);
+
+
     }
 
-    
+    @Test
+    public void test1(){
+        String a="abcdefg";
+        System.out.println(a.substring(a.lastIndexOf("b")+1,a.lastIndexOf("e")));
+    }
+
+    @Test
+    public void test2(){
+        Integer a=1;
+        System.out.println(a.toString().equals("1"));
+    }
 }

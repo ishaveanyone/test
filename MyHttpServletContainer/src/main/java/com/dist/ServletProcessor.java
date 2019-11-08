@@ -1,7 +1,5 @@
 package com.dist;
 
-import com.sun.jndi.toolkit.url.UrlUtil;
-
 import javax.servlet.*;
 import java.io.File;
 import java.io.IOException;
@@ -20,24 +18,23 @@ public class ServletProcessor {
         try{
             URL[] urls=new URL[1];
             URLStreamHandler urlStreamHandler=null;
-            File classPath=new File(Constants.WEB_APP);
-            String repository=new URL("file",null,classPath.getCanonicalPath()+File.separator).toString();
-            urls[0]=new URL(null,repository,urlStreamHandler);
-            urlClassLoader=new URLClassLoader(urls);
+            File classPath=new File(Constants.ClASS_PATH);
+            URL repository=classPath.toURI().toURL();
+            urlClassLoader=new URLClassLoader(new URL[]{repository});
 
         }catch (Exception e){
             e.printStackTrace();
         }
         Class myClass=null;
         try {
-            urlClassLoader.loadClass(serveltName);
+            myClass=urlClassLoader.loadClass("com.dist."+serveltName);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
         Servlet servlet=null;
         try {
             servlet= (Servlet)myClass.newInstance();
-            servlet.service((ServletRequest)request,(ServletResponse)response);
+            servlet.service(request,response);
         } catch (InstantiationException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {

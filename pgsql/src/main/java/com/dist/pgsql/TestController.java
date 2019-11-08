@@ -15,6 +15,7 @@ public class TestController {
     @Autowired  T3Resp t3Resp;
     @Autowired  T1Resp t1Resp;
     @Autowired  T5Resp t5Resp;
+    @Autowired  T6Resp t6Resp;
     @GetMapping("/t")
     public T gett(){
         System.out.println(1);
@@ -43,5 +44,11 @@ public class TestController {
     public T5 gett5(){
         System.out.println(1);
         return  t5Resp.findById(1).get();
+    }
+
+    @GetMapping("/t6")
+    public T6 gett6(){
+        System.out.println(1);
+        return t6Resp.findById(1).get();
     }
 }

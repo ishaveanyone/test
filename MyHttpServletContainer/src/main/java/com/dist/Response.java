@@ -29,7 +29,6 @@ public class Response implements HttpServletResponse {
 
         //找到对应的文件
        String targetFilePath=Constants.WEB_APP+request.getUri();
-
        if(new File(targetFilePath).exists()){
            System.out.println(request.getUri());
            //必须包含返回头，否则浏览器不识别
@@ -174,7 +173,8 @@ public class Response implements HttpServletResponse {
 
     @Override
     public PrintWriter getWriter() throws IOException {
-        return new PrintWriter(outputStream);
+        writer=new PrintWriter(outputStream,true);
+        return  writer;
     }
 
     @Override

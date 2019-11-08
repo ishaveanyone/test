@@ -14,6 +14,11 @@
         <option value="$PROJECT_DIR$/asyc/pom.xml" />
         <option value="$PROJECT_DIR$/rmi/pom.xml" />
         <option value="$PROJECT_DIR$/pgsql/pom.xml" />
+        <option value="$PROJECT_DIR$/regexp/pom.xml" />
+        <option value="$PROJECT_DIR$/easyexcel/pom.xml" />
+        <option value="$PROJECT_DIR$/guava/pom.xml" />
+        <option value="$PROJECT_DIR$/quartz/pom.xml" />
+        <option value="$PROJECT_DIR$/quartz/springbootq/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

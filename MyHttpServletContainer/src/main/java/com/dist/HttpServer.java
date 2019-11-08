@@ -20,7 +20,6 @@ public class HttpServer {
 
 
     public static void main(String[] args) {
-        System.out.println(Constants.WEB_APP);
         HttpServer server=new HttpServer();
         try {
             server.await();
@@ -41,7 +40,9 @@ public class HttpServer {
             request.parse();
             Response response=new Response(outputStream);
             response.setRequest(request);
-
+            if(request.getUri()==null){
+                continue;
+            }
             if(request.getUri().startsWith("/servlet")){
                 ServletProcessor servletProcessor=new ServletProcessor();
                 servletProcessor.process(request,response);
@@ -49,13 +50,6 @@ public class HttpServer {
                 StaticResourceProcessor processor=new StaticResourceProcessor();
                 processor.process(request,response);
             }
-
-            try {
-                response.sendStaticResource();
-            } catch (URISyntaxException e) {
-                e.printStackTrace();
-            }
-
             socket.close();
             isStoped=command.equalsIgnoreCase(request.getUri());
         }
