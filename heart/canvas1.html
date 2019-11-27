@@ -23,26 +23,20 @@
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
   <style>
-     #myCanvas{
-       background-color: wheat;
-       border: 1px solid #000;
-     }
+
   </style>
 </head>
 
 <body>
 
-
-  <h1>测试项目生成是否正常</h1>
-
-  <button value="测试jq 插件是不是正常">测试jq 插件是不是正常</button>
-  <!-- 我的画布 -->
-  <canvas id="myCanvas" width="500" height="500" ></canvas>
+    <canvas id="canvas"></canvas>
 
 
 </body>
 <script>
-
+  //  获取画布
+  var canvas=$("#canvas");
+  var ctx=canvas.getContext('2d');
 
 
 </script>

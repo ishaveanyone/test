@@ -61,7 +61,27 @@ public class CollectorsTest {
         });
     }
 
+   static void test2(){
+       Integer o1= new Integer(1);
+       Integer o2= new Integer(2);
+       Integer o3= new Integer(3);
+      List<Integer> os= Arrays.asList(o1,o2,o3);
+       List<Integer> arrList = new ArrayList(os);
+     Optional<Integer> op= arrList.stream().filter(o->o==1).findFirst();
+
+     if(op.isPresent()){
+         Integer o4=op.get();
+         arrList.remove(o4);
+         System.out.println(arrList.size());
+     }
+
+
+
+   }
+
     public static void main(String[] args) {
-        test1();
+
+        System.out.println("a".contains(""));
+        test2();
     }
 }

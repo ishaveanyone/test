@@ -6,23 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="javamongo" />
         <module name="client" />
+        <module name="redis" />
         <module name="springbootq" />
+        <module name="websocket" />
         <module name="asyc" />
         <module name="jdk7" />
         <module name="guava" />
         <module name="rmi" />
         <module name="quartz" />
-        <module name="springdubbo" />
         <module name="pgsql" />
         <module name="easyexcel" />
+        <module name="activemq" />
         <module name="akka" />
         <module name="regexp" />
+        <module name="springdubbo" />
         <module name="recursive" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="activemq" target="1.8" />
       <module name="akka" target="1.8" />
       <module name="asyc" target="1.8" />
       <module name="client" target="1.6" />
@@ -53,6 +56,7 @@
       <module name="practice.fileserver.test" target="1.8" />
       <module name="quartz" target="1.8" />
       <module name="recursive" target="1.8" />
+      <module name="redis" target="1.8" />
       <module name="regexp" target="1.8" />
       <module name="rmi" target="1.8" />
       <module name="servelt.main" target="1.8" />
@@ -66,14 +70,18 @@
       <module name="test.juintest.test" target="1.8" />
       <module name="test.main" target="1.8" />
       <module name="test.test" target="1.8" />
+      <module name="websocket" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="activemq" options="-parameters" />
       <module name="client" options="" />
       <module name="pgsql" options="-parameters" />
+      <module name="redis" options="-parameters" />
       <module name="springbootq" options="-parameters" />
       <module name="springdubbo" options="-parameters" />
+      <module name="websocket" options="-parameters" />
     </option>
   </component>
 </project>

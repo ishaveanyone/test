@@ -8,7 +8,6 @@
       <list>
         <option value="$PROJECT_DIR$/jvm/pom.xml" />
         <option value="$PROJECT_DIR$/akka/pom.xml" />
-        <option value="$PROJECT_DIR$/nosql/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud/pom.xml" />
         <option value="$PROJECT_DIR$/springdubbo/pom.xml" />
         <option value="$PROJECT_DIR$/asyc/pom.xml" />
@@ -19,6 +18,9 @@
         <option value="$PROJECT_DIR$/guava/pom.xml" />
         <option value="$PROJECT_DIR$/quartz/pom.xml" />
         <option value="$PROJECT_DIR$/quartz/springbootq/pom.xml" />
+        <option value="$PROJECT_DIR$/redis/pom.xml" />
+        <option value="$PROJECT_DIR$/websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/activemq/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

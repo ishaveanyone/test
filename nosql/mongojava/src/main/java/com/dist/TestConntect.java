@@ -11,13 +11,14 @@ public class TestConntect {
      * 或MongoClient(对旧式MongoClient) API进行连接，
      * 以连接到正在运行的MongoDB实例。
      */
-    public static void testNewApiConnect(){
+    public static void testNewApiConnect() {
         MongoClient mongoClient = MongoClients.create();
         System.out.println(mongoClient.getDatabase("test").getCollection("test").find());
     }
-    public static void testOldApiConnect(){
-      //直接 通过 构造喊声1 进行链接的建立
-        com.mongodb.MongoClient mongoClient=new com.mongodb.MongoClient();
+
+    public static void testOldApiConnect() {
+        //直接 通过 构造喊声1 进行链接的建立
+        com.mongodb.MongoClient mongoClient = new com.mongodb.MongoClient();
         System.out.println(mongoClient.getDatabase("test").getCollection("test").find());
     }
 

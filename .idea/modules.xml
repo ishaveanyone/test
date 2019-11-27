@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyHttpServer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MyHttpServer.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyHttpServletContainer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MyHttpServletContainer.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyHttpServletContainer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MyHttpServletContainer.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activemq/activemq.iml" filepath="$PROJECT_DIR$/activemq/activemq.iml" />
       <module fileurl="file://$PROJECT_DIR$/akka/akka.iml" filepath="$PROJECT_DIR$/akka/akka.iml" />
       <module fileurl="file://$PROJECT_DIR$/asyc/asyc.iml" filepath="$PROJECT_DIR$/asyc/asyc.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/client/client.iml" filepath="$PROJECT_DIR$/springcloud/client/client.iml" />
@@ -20,18 +21,16 @@
       <module fileurl="file://$PROJECT_DIR$/easyexcel/easyexcel.iml" filepath="$PROJECT_DIR$/easyexcel/easyexcel.iml" />
       <module fileurl="file://$PROJECT_DIR$/guava/guava.iml" filepath="$PROJECT_DIR$/guava/guava.iml" />
       <module fileurl="file://$PROJECT_DIR$/heart/heart.iml" filepath="$PROJECT_DIR$/heart/heart.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nosql/mongo/javamongo/javamongo.iml" filepath="$PROJECT_DIR$/nosql/mongo/javamongo/javamongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jvm/jdk7/jdk7.iml" filepath="$PROJECT_DIR$/jvm/jdk7/jdk7.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/juintest.iml" filepath="$PROJECT_DIR$/.idea/modules/juintest.iml" />
       <module fileurl="file://$PROJECT_DIR$/jvm/jvm.iml" filepath="$PROJECT_DIR$/jvm/jvm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nosql/mongo/mongo.iml" filepath="$PROJECT_DIR$/nosql/mongo/mongo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nosql/nosql.iml" filepath="$PROJECT_DIR$/nosql/nosql.iml" />
       <module fileurl="file://$PROJECT_DIR$/pgsql/pgsql.iml" filepath="$PROJECT_DIR$/pgsql/pgsql.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fileserver/practice.fileserver.iml" filepath="$PROJECT_DIR$/.idea/modules/fileserver/practice.fileserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fileserver/practice.fileserver.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fileserver/practice.fileserver.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fileserver/practice.fileserver.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fileserver/practice.fileserver.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/quartz/quartz.iml" filepath="$PROJECT_DIR$/quartz/quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/jvm/recursive/recursive.iml" filepath="$PROJECT_DIR$/jvm/recursive/recursive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/regexp/regexp.iml" filepath="$PROJECT_DIR$/regexp/regexp.iml" />
       <module fileurl="file://$PROJECT_DIR$/rmi/rmi.iml" filepath="$PROJECT_DIR$/rmi/rmi.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/servelt.iml" filepath="$PROJECT_DIR$/.idea/modules/servelt.iml" />
@@ -47,6 +46,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/juintest/test.juintest.iml" filepath="$PROJECT_DIR$/.idea/modules/juintest/test.juintest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/juintest/test.juintest.main.iml" filepath="$PROJECT_DIR$/.idea/modules/juintest/test.juintest.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/juintest/test.juintest.test.iml" filepath="$PROJECT_DIR$/.idea/modules/juintest/test.juintest.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocket/websocket.iml" filepath="$PROJECT_DIR$/websocket/websocket.iml" />
     </modules>
   </component>
 </project>

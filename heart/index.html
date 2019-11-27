@@ -1,0 +1,128 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <style>
+     #myCanvas{
+       background-color: wheat;
+       border: 1px solid #000;
+     }
+  </style>
+</head>
+
+<body>
+
+
+  <h1>测试项目生成是否正常</h1>
+
+  <button value="测试jq 插件是不是正常">测试jq 插件是不是正常</button>
+  <!-- 我的画布 -->
+  <canvas id="myCanvas" width="500" height="500" ></canvas>
+
+
+</body>
+<script>
+    var canvas_ = document.getElementById("myCanvas");
+    var context = canvas_.getContext("2d");
+    //线条设置
+    context.strokeStyle = "red";
+    context.lineWidth = 2;
+
+    //线条数组
+    var array_paint = [];
+
+    //背景图
+    function paint() {
+        context.beginPath();
+        context.moveTo(array_paint[0][0], array_paint[0][1]);
+        if (array_paint.length == 1)
+            context.lineTo(array_paint[0][0] + 1, array_paint[0][1] + 1);
+        else {
+            var i = 1;
+            for (i in array_paint) {
+                context.lineTo(array_paint[i][0], array_paint[i][1]);
+                context.moveTo(array_paint[i][0], array_paint[i][1]);
+            }
+
+        }
+        context.closePath();
+        context.stroke();
+    }
+
+    let num = -1;
+    let timer = null;
+    let list = []
+    //创建坐标
+    list = heartShape(20, 50, 20)
+
+    function people() {
+        num++;
+        var imgpeople = new Image()
+        imgpeople.src = "img/画笔.png"
+        context.drawImage(imgpeople, list[num].current_x * 500 / 100 - 10, list[num].current_y * 500 / 100 - 20, 20,
+            20);
+        context.clearRect(0, 0, screen.width, screen.height);
+
+        console.log(list[num].current_x * 500 / 100);
+        if (num < list.length - 1) {
+            let current_x = (Math.random() * 100).toFixed(2);
+            let current_y = (Math.random() * 100).toFixed(2);
+            array_paint.push([list[num].current_x * 500 / 100, list[num].current_y * 500 / 100]);
+            paint();
+            if (num > 0) {
+                context.drawImage(imgpeople, list[num].current_x * 500 / 100 - 10, list[num].current_y * 500 / 100 -
+                    20, 20, 20);
+            }
+        } else {
+            array_paint = [];
+            for (var i = 0; i < list.length; i++) {
+                array_paint.push([list[i].current_x * 500 / 100, list[i].current_y * 500 / 100]);
+                paint();
+                context.drawImage(imgpeople, list[num].current_x * 500 / 100 - 10, list[num].current_y * 500 / 100 -
+                    20, 20, 20);
+            }
+            clearInterval(timer);
+        }
+
+    }
+    timer = setInterval(people, 50)
+    function heartShape(r, dx, dy) { //r:大小;dx:水平偏移;dy:垂直偏移;
+        var m, n, x, y, i;
+        let arr = [];
+        for (i = 0; i <= 7.9; i += 0.04) {
+            m = i;
+            n = -r * (((Math.sin(i) * Math.sqrt(Math.abs(Math.cos(i)))) / (Math.sin(i) + 1.4)) - 2 * Math.sin(i) +
+                2);
+            x = n * Math.cos(m) + dx;
+            y = n * Math.sin(m) + dy;
+            arr.push({
+                current_x: x,
+                current_y: y
+            })
+        }
+        return arr
+    }
+
+
+</script>
+</html>
