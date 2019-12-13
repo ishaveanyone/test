@@ -83,21 +83,31 @@ public class ListGroupTest
             e.setName("商品2");
             list.add(e);
         }
+
+        {
+            Goods e = new Goods();
+            e.setId(2);
+            e.setGroupId(null);
+            e.setName("");
+            list.add(e);
+        }
         //根据groupId分组, 如果groupId为null, 则放到默认为0的group下
-        Function<Goods, Integer> fun = new Function<Goods, Integer>() {
+        Function<Goods, String> fun = new Function<Goods, String>() {
             @Override
-            public Integer apply(Goods input) {
-                if (input.getGroupId() == null) {
-                    return 0;
+            public String apply(Goods input) {
+                if (input.getName() == null) {
+                    return "";
                 }
-                return input.getGroupId();
+                return input.getName();
             }
         };
-        Multimap<Integer, Goods> index = Multimaps.index(list, fun);
-        Map<Integer, Collection<Goods>> map = index.asMap();
-        for (Map.Entry<Integer, Collection<Goods>> entry : map.entrySet()) {
+        Multimap<String, Goods> index = Multimaps.index(list, fun);
+        Map<String, Collection<Goods>> map = index.asMap();
+        for (Map.Entry<String, Collection<Goods>> entry : map.entrySet()) {
             System.out.println(entry.getKey() + " <---> " + entry.getValue());
-
         }
+
+
+
     }
 }

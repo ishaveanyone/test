@@ -1,0 +1,70 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/root.css">
+  <link rel="stylesheet" href="css/top.css">
+  <link rel="stylesheet" href="css/middle.css">
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+  <body>
+  <img src="http://oss-example.oss.aliyuncs.com/aliyun-logo.png"/>
+    <div class="root">
+      <div class="top">
+        <div class="top-left">
+    <!--左侧的 图片-->
+        </div>
+        <div class="top-middle">
+          <input type="text" class="top-middle-input-left">
+          <input type="button" value="百度一下" class="top-middle-input-right">
+        </div>
+        <div class="top-right">
+          <a class="top-right-target">百度首页</a>
+          <a class="top-right-target">设置</a>
+          <a class="top-right-target">登录</a>
+        </div>
+      </div>
+      <div class="middle">
+        <div class="middle-navigation">
+          <div class="middle-navigation-bar">
+            <div class="middle-navigation-bar-target">网页</div>
+
+            <div class="middle-navigation-bar-target">资讯</div>
+            <div class="middle-navigation-bar-target">视频</div>
+            <div class="middle-navigation-bar-target">图片</div>
+            <div class="middle-navigation-bar-target">知道</div>
+            <div class="middle-navigation-bar-target">文库</div>
+            <div class="middle-navigation-bar-target">贴吧</div>
+            <div class="middle-navigation-bar-target">采购</div>
+            <div class="middle-navigation-bar-target">地图</div>
+            <div class="middle-navigation-bar-target">更多》</div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </body>
+
+  <script>
+      $(".middle-navigation-bar-target").click(function () {
+          $(this).css({"borderBottom":"2px solid blue"});
+          $(this).siblings().css({"borderBottom":"0px"});
+      })
+
+  </script>
+
+</html>

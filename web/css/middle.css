@@ -1,0 +1,29 @@
+/*
+中间部分的 样式代码
+*/
+.middle{
+  width: 100%;
+  height: 1000px;
+  /*background-color: red;*/
+}
+.middle .middle-navigation{
+  width: 100%;
+  height: 50px;
+  background-color: rgba(237,237,237,0.5);
+}
+.middle .middle-navigation .middle-navigation-bar{
+  margin-left: 100px;
+  /*background-color: gainsboro;*/
+  height: 50px;
+  line-height: 50px;
+}
+.middle .middle-navigation .middle-navigation-bar .middle-navigation-bar-target{
+  margin-left: 10px;
+  float: left;
+  height: 50px;
+  font-size: 15px;
+}
+.middle .middle-navigation .middle-navigation-bar .middle-navigation-bar-target:hover{
+  cursor: pointer;
+}
+

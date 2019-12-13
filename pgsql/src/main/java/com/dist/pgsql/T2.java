@@ -3,8 +3,8 @@ package com.dist.pgsql;
 import lombok.Data;
 
 import javax.persistence.*;
-@Table(name = "t2",schema = "xschema")
-@Entity
+
+@Entity(name = "T2")
 @Data
 public class T2 {
     @Id

@@ -7,7 +7,7 @@ import java.util.List;
 public class StringBak {
 
     public static void main(String[] args) {
-        System.out.println(new Integer(1).toString().equals("1"));
+//        System.out.println(new Integer(1).toString().equals("1"));
 /*
         String[]  strs= "a,null".split(",");
         System.out.println(null==null);
@@ -16,7 +16,10 @@ public class StringBak {
             System.out.println(str);
         }*/
 
-      List<Integer> list= Arrays.asList(1,2,3);
-        System.out.println(list.contains(new Integer(1)));
+//        List<Integer> list= Arrays.asList(1,2,3);
+//        System.out.println(list.contains(new Integer(1)));
+
+        String a="/a/b/c/class/";
+        System.out.println(a.substring(a.indexOf('/')+1));
     }
 }

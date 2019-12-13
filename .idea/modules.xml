@@ -10,10 +10,6 @@
       <module fileurl="file://$PROJECT_DIR$/akka/akka.iml" filepath="$PROJECT_DIR$/akka/akka.iml" />
       <module fileurl="file://$PROJECT_DIR$/asyc/asyc.iml" filepath="$PROJECT_DIR$/asyc/asyc.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/client/client.iml" filepath="$PROJECT_DIR$/springcloud/client/client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.dist.MyHttpServer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.dist.MyHttpServer.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.dist.MyHttpServer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.dist.MyHttpServer.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.dist.MyHttpServletContainer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.dist.MyHttpServletContainer.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.dist.MyHttpServletContainer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.dist.MyHttpServletContainer.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.dist.servelt.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.dist.servelt.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.dist.servelt.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.dist.servelt.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/juintest/com.dist.test.juintest.main.iml" filepath="$PROJECT_DIR$/.idea/modules/juintest/com.dist.test.juintest.main.iml" />
@@ -24,6 +20,10 @@
       <module fileurl="file://$PROJECT_DIR$/jvm/jdk7/jdk7.iml" filepath="$PROJECT_DIR$/jvm/jdk7/jdk7.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/juintest.iml" filepath="$PROJECT_DIR$/.idea/modules/juintest.iml" />
       <module fileurl="file://$PROJECT_DIR$/jvm/jvm.iml" filepath="$PROJECT_DIR$/jvm/jvm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/konlit/konlit.iml" filepath="$PROJECT_DIR$/konlit/konlit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liscence/liscence.iml" filepath="$PROJECT_DIR$/liscence/liscence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos/nacos.iml" filepath="$PROJECT_DIR$/nacos/nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oss/oss.iml" filepath="$PROJECT_DIR$/oss/oss.iml" />
       <module fileurl="file://$PROJECT_DIR$/pgsql/pgsql.iml" filepath="$PROJECT_DIR$/pgsql/pgsql.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fileserver/practice.fileserver.iml" filepath="$PROJECT_DIR$/.idea/modules/fileserver/practice.fileserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fileserver/practice.fileserver.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fileserver/practice.fileserver.main.iml" />
@@ -39,6 +39,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/skill-pool.iml" filepath="$PROJECT_DIR$/.idea/skill-pool.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/skill-pool.servelt.main.iml" filepath="$PROJECT_DIR$/.idea/modules/skill-pool.servelt.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/skill-pool.servelt.test.iml" filepath="$PROJECT_DIR$/.idea/modules/skill-pool.servelt.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/springboot2xx/springboot2xx.iml" filepath="$PROJECT_DIR$/springboot/springboot2xx/springboot2xx.iml" />
       <module fileurl="file://$PROJECT_DIR$/quartz/springbootq/springbootq.iml" filepath="$PROJECT_DIR$/quartz/springbootq/springbootq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/springcloud.iml" filepath="$PROJECT_DIR$/springcloud/springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/springdubbo/springdubbo.iml" filepath="$PROJECT_DIR$/springdubbo/springdubbo.iml" />
@@ -46,6 +47,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/juintest/test.juintest.iml" filepath="$PROJECT_DIR$/.idea/modules/juintest/test.juintest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/juintest/test.juintest.main.iml" filepath="$PROJECT_DIR$/.idea/modules/juintest/test.juintest.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/juintest/test.juintest.test.iml" filepath="$PROJECT_DIR$/.idea/modules/juintest/test.juintest.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
       <module fileurl="file://$PROJECT_DIR$/websocket/websocket.iml" filepath="$PROJECT_DIR$/websocket/websocket.iml" />
     </modules>
   </component>

@@ -17,11 +17,17 @@ public class FileBak {
         /*File file1=new File("H://test");
            File file2= new File(file1.getParentFile(),"test3");
         file1.renameTo(file2);*/
-        System.out.println(FileBak.class.getClassLoader().getResource(""));
-        String oldpath="H:\\a//a b c/a.txt";
-        String newpath="H:\\a//c/a.txt";
-        copyFile(oldpath,newpath);
+//        System.out.println(FileBak.class.getClassLoader().getResource(""));
+//        String oldpath="H:\\a//a b c/a.txt";
+//        String newpath="H:\\a//c/a.txt";
+//        copyFile(oldpath,newpath);
+        pathtest();
 
+    }
+
+   static void pathtest(){
+        File file =new File ("/H:/b.pdf");
+        System.out.println(file.exists());
     }
 
     public static boolean copyFile(String oldPath, String newPath) {

@@ -21,6 +21,11 @@
         <option value="$PROJECT_DIR$/redis/pom.xml" />
         <option value="$PROJECT_DIR$/websocket/pom.xml" />
         <option value="$PROJECT_DIR$/activemq/pom.xml" />
+        <option value="$PROJECT_DIR$/oos/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/oss/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot/springboot2xx/pom.xml" />
+        <option value="$PROJECT_DIR$/liscence/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

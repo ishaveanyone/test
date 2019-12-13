@@ -4,32 +4,6 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="delegatedBuild" value="false" />
-        <option name="testRunner" value="PLATFORM" />
-        <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/MyHttpServer" />
-        <option name="gradleHome" value="G:/gradle/gradle-5.6.2/bin" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/MyHttpServer" />
-          </set>
-        </option>
-        <option name="useQualifiedModuleNames" value="true" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="delegatedBuild" value="false" />
-        <option name="testRunner" value="PLATFORM" />
-        <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/MyHttpServletContainer" />
-        <option name="gradleHome" value="G:/gradle/gradle-5.6.2/bin" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/MyHttpServletContainer" />
-          </set>
-        </option>
-        <option name="useQualifiedModuleNames" value="true" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
         <option name="delegatedBuild" value="true" />
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="LOCAL" />
