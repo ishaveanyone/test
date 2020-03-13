@@ -26,6 +26,12 @@
         <option value="$PROJECT_DIR$/oss/pom.xml" />
         <option value="$PROJECT_DIR$/springboot/springboot2xx/pom.xml" />
         <option value="$PROJECT_DIR$/liscence/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc/pom.xml" />
+        <option value="$PROJECT_DIR$/officetopdf/pom.xml" />
+        <option value="$PROJECT_DIR$/wpstopdftest/pom.xml" />
+        <option value="$PROJECT_DIR$/fileupdaload/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/poi/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

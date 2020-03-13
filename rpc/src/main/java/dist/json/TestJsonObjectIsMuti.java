@@ -20,11 +20,11 @@ import java.util.List;
 public class TestJsonObjectIsMuti {
 
     public static void main(String[] args) throws IOException {
-
-        JSONObject jsonObject=new JSONObject();
-        jsonObject.put("a","a");
-        jsonObject.put("a","b");
-        System.out.println(jsonObject.toJSONString());
-        
+//
+//        JSONObject jsonObject=new JSONObject();
+//        jsonObject.put("a","a");
+//        jsonObject.put("a","b");
+//        System.out.println(jsonObject.toJSONString());
+           JSONObject.
     }
 }

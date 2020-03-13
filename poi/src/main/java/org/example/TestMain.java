@@ -7,7 +7,7 @@
  * Desc：
  */
 
-package com.dist.xdata.ers.util;
+package org.example;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

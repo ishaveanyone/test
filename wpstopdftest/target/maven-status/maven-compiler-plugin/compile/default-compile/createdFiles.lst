@@ -1,0 +1,4 @@
+com\dist\wpstopdftest\WpsToPdf.class
+com\dist\wpstopdftest\TestController.class
+com\dist\wpstopdftest\SystemUtil.class
+com\dist\wpstopdftest\WpstopdftestApplication.class

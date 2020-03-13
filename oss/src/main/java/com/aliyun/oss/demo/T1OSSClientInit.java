@@ -10,10 +10,10 @@ public class T1OSSClientInit {
     //创建一个ossclient 实例
     public static void main(String[] args) {
         // Endpoint以杭州为例，其它Region请按实际情况填写。
-        String endpoint = "http://oss-cn-hangzhou.aliyuncs.com";
+        String endpoint = "oss-cn-shanghai.aliyuncs.com";
 // 阿里云主账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM账号进行API访问或日常运维，请登录 https://ram.console.aliyun.com 创建RAM账号。
-        String accessKeyId = "LTAI4FptiyDnHfYsCPoBSq4Q";
-        String accessKeySecret = "HmGxyviLd4N7NMZP41dYa6LU48alU1";
+        String accessKeyId = "LTAI4FdZru96HsVwmhmr9TcC";
+        String accessKeySecret = "TzvMRzKvYlEV4hplAm9y0CUMxsjG24";
         // 创建OSSClient实例。
 
         // 创建ClientConfiguration。ClientConfiguration是OSSClient的配置类，可配置代理、连接超时、最大连接数等参数。

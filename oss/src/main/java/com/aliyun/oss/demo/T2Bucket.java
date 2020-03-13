@@ -11,23 +11,25 @@ import java.util.List;
 
 public class T2Bucket {
     // Endpoint以杭州为例，其它Region请按实际情况填写。
-    static String endpoint = "http://oss-cn-hangzhou.aliyuncs.com";
+    static  String endpoint = "http://59.202.42.251";
     // 阿里云主账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM账号进行API访问或日常运维，请登录 https://ram.console.aliyun.com 创建RAM账号。
-    static String accessKeyId = "LTAI4FptiyDnHfYsCPoBSq4Q";
-    static String accessKeySecret = "HmGxyviLd4N7NMZP41dYa6LU48alU1";
+    static  String accessKeyId = "qAALhWQY2oMy1cwE";
+    static String accessKeySecret = "1XfG1fugfUt8v3BfoYEnCuVHlGQrYA";
     // 创建OSSClient实例。
     public static void main(String[] args) throws ParseException {
-        getLocation();
-        checkExsits();
-        listBucket();
-        getInfo();
-        bucketAcl();
-        delBucket();//
+//        getLocation();
+//        checkExsits();
+//        listBucket();
+//        getInfo();
+//        bucketAcl();
+//        delBucket();//
+//
+//        setTag();
+//
+//        lifeSycle();
+//        testlog();
 
-        setTag();
-
-        lifeSycle();
-        testlog();
+        createBucket();
     }
 
     static void testlog(){
@@ -214,7 +216,7 @@ public class T2Bucket {
         /**
          * Bucket "测试" 名称无效。Bucket 命名规范：1)只能包括小写字母，数字和短横线（-）；2)必须以小写字母或者数字开头；3)长度必须在 3-63 字节之间。
          */
-        CreateBucketRequest createBucketRequest = new CreateBucketRequest("cs1-46433");
+        CreateBucketRequest createBucketRequest = new CreateBucketRequest("lswth11");
 
 // 如果创建存储空间的同时需要指定存储类型以及数据容灾类型, 可以参考以下代码。
 // 此处以设置存储空间的存储类型为标准存储为例。
@@ -224,17 +226,6 @@ public class T2Bucket {
 
 // 创建存储空间。
         ossClient.createBucket(createBucketRequest);
-
-
-
-
-        //设置访问权限
-// 设置存储空间的权限为公共读，默认是私有。
-        createBucketRequest.setCannedACL(CannedAccessControlList.PublicRead);
-// 设置存储空间的存储类型为低频访问类型，默认是标准类型。
-        createBucketRequest.setStorageClass(StorageClass.IA);
-        ossClient.createBucket(createBucketRequest);
-
 
 // 关闭OSSClient。
         ossClient.shutdown();

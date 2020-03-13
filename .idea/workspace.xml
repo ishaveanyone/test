@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="240a68e6-51f3-494a-a694-0217fa4996e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__de_undercouch_bson4jackson_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jongo_jongo_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mongodb_mongo_java_driver_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_06.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_hynnet_jacob_1_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_0_alpha1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/DBCP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/com.dist.jdbcpool.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/com.dist.jdbcpool.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/com.dist.mongo.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/com.dist.mongo.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/jdbcconnectionpool.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/jdbcpool.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/jdbcpool.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/jdbcpool.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/mongo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/mongo.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/mongo.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/xupp.skill-pool.servelt.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/xupp.skill-pool.servelt.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guava/src/main/java/com/dist/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/jdk7/src/main/java/com/dist/NetBak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo/src/main/java/JongoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo/src/main/java/MongoQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/officetopdf/src/main/java/com/dist/WpsToPdf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/ServerSideEncryption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poi/src/main/java/org/example/Column.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poi/src/main/java/org/example/ExcelTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poi/src/main/java/org/example/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poi/src/main/java/org/example/TitleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poi/src/main/java/org/example/TreeTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/Send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc/rpc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wpstopdftest/src/main/java/com/dist/wpstopdftest/SystemUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wpstopdftest/src/main/java/com/dist/wpstopdftest/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wpstopdftest/src/main/java/com/dist/wpstopdftest/WpsToPdf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wpstopdftest/src/main/resources/dll/jacob/jacob-1.18-M2-x64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wpstopdftest/src/main/resources/dll/jacob/jacob-1.18-M2-x86.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wpstopdftest/src/main/resources/dll/jacob/jacob-1.18-x64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wpstopdftest/src/main/resources/dll/jacob/jacob-1.18-x86.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___com_dist___servelt_1_0_SNAPSHOT_war__exploded_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___com_dist___servelt_1_0_SNAPSHOT_war__exploded_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/juintest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/juintest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/juintest/com.dist.test.juintest.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/juintest/com.dist.test.juintest.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/juintest/com.dist.test.juintest.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/juintest/com.dist.test.juintest.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/skill-pool.servelt.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/skill-pool.servelt.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/skill-pool.servelt.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/skill-pool.servelt.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easyexcel/easyexcel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/easyexcel/easyexcel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava/guava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/guava/guava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heart/heart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/heart/heart.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/jdk7/src/main/java/com/dist/StringBak.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/jdk7/src/main/java/com/dist/StringBak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/jdk7/target/classes/com/dist/StringBak.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/jdk7/target/classes/com/dist/StringBak.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/src/main/java/com/dist/collection/LinkHashMapBak.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/collection/LinkHashMapBak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/collection/LinkHashMapBak.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/target/classes/com/dist/collection/LinkHashMapBak.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/konlit/konlit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/konlit/konlit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/nacos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/nacos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/mongo/javamongo/javamongo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/officetopdf/officetopdf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/mongo/javamongo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/mongo/javamongo/src/main/java/com/dist/ConnectMongo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/mongo/mongo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/poi/poi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/mongo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/poi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/mongojava/mongojava.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/mongojava/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/mongojava/src/main/java/com/dist/TestConntect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/mongojava/target/classes/com/dist/TestConntect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/nosql.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/src/main/java/com/dist/redis/RedisApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/src/test/java/com/dist/redis/RedisApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/oss.iml" beforeDir="false" afterPath="$PROJECT_DIR$/oss/oss.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/oss研究.md" beforeDir="false" afterPath="$PROJECT_DIR$/oss/oss研究.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T1OSSClientInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T1OSSClientInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T2Bucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T2Bucket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T3FileUploadBak.java" beforeDir="false" afterPath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T3FileUploadBak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/target/classes/META-INF/oss.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/target/classes/com/aliyun/oss/demo/FileDownloadBak.class" beforeDir="false" afterPath="$PROJECT_DIR$/oss/target/classes/com/aliyun/oss/demo/FileDownloadBak.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/target/classes/com/aliyun/oss/demo/T1OSSClientInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/oss/target/classes/com/aliyun/oss/demo/T1OSSClientInit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/target/classes/com/aliyun/oss/demo/T2Bucket.class" beforeDir="false" afterPath="$PROJECT_DIR$/oss/target/classes/com/aliyun/oss/demo/T2Bucket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/target/classes/com/aliyun/oss/demo/T3FileUploadBak.class" beforeDir="false" afterPath="$PROJECT_DIR$/oss/target/classes/com/aliyun/oss/demo/T3FileUploadBak.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz/quartz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/quartz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regexp/regexp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/regexp/regexp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/dist/json/TestJsonObjectIsMuti.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/dist/json/TestJsonObjectIsMuti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/MyHttpServer">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/MyHttpServletContainer">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/jdbcconnectionpool">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/jdbcpool">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/mongo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/practice">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/practice/fileserver">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/servelt">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/test">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/servelt">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/test">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/MyHttpServletContainer">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/mongo">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jdbcpool" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mongo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mongo" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mongo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mongo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="G:/maven/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="G:\maven\apache-maven-3.5.4\conf\settings-阿里.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RAjWNM31I59nKBBTYyD0Nra7DI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.dist" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\poi\src\main\java\org\example" />
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\wpstopdftest\src\main\resources" />
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\liscence\src\main\java\com\dist\liscence" />
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\oss\src\main\resources" />
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\oss\src\test\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dist.wpstopdftest" />
+      <recent name="com.dist" />
+      <recent name="com.dist.liscence" />
+      <recent name="com.dist.pgsql" />
+      <recent name="com.dist.collection" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\wpstopdftest\src\main\resources\dll" />
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\MyHttpServletContainer\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://52.83.103.252:8086" />
+          <option name="urlPath" value="/dgp-server-web-nr/rest/pas/private/smartanalysis/v1/indicator/system" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestMain">
+    <configuration name="LinkHashMapBak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dist.collection.LinkHashMapBak" />
+      <module name="jvm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dist.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringBak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dist.StringBak" />
+      <module name="jdk7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T2Bucket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aliyun.oss.demo.T2Bucket" />
+      <module name="oss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aliyun.oss.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T3FileUploadBak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aliyun.oss.demo.T3FileUploadBak" />
+      <module name="oss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aliyun.oss.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TestMain" />
+      <module name="poi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivemqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="activemq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dist.activemq.ActivemqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dist.ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dist.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileupdaloadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fileupdaload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dist.FileupdaloadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LiscenceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="liscence" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dist.liscence.LiscenceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PgsqlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pgsql" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dist.pgsql.PgsqlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dist.redis.RedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot2xxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot2xx" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dist.Springboot2xxApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springbootq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dist.springbootq.SpringbootqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringdubboApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springdubbo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dist.SpringdubboApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringdubboApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springdubbo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dist.springdubbo.SpringdubboApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringdubboApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springdubbo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dist.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dist.SpringdubboApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebsocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="websocket" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dist.websocket.WebsocketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WpstopdftestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wpstopdftest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dist.wpstopdftest.WpstopdftestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.LinkHashMapBak" />
+      <item itemvalue="Application.T2Bucket" />
+      <item itemvalue="Application.StringBak" />
+      <item itemvalue="Application.T3FileUploadBak" />
+      <item itemvalue="Application.TestMain" />
+      <item itemvalue="Spring Boot.ClientApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.SpringdubboApplication" />
+      <item itemvalue="Spring Boot.SpringdubboApplication (1)" />
+      <item itemvalue="Spring Boot.PgsqlApplication" />
+      <item itemvalue="Spring Boot.SpringbootqApplication" />
+      <item itemvalue="Spring Boot.RedisApplication" />
+      <item itemvalue="Spring Boot.WebsocketApplication" />
+      <item itemvalue="Spring Boot.ActivemqApplication" />
+      <item itemvalue="Spring Boot.Springboot2xxApplication" />
+      <item itemvalue="Spring Boot.LiscenceApplication" />
+      <item itemvalue="Spring Boot.WpstopdftestApplication" />
+      <item itemvalue="Spring Boot.FileupdaloadApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestMain" />
+        <item itemvalue="Application.T3FileUploadBak" />
+        <item itemvalue="Application.T2Bucket" />
+        <item itemvalue="Application.StringBak" />
+        <item itemvalue="Application.LinkHashMapBak" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_NON_PUBLIC,SHOW_FIELDS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="240a68e6-51f3-494a-a694-0217fa4996e8" name="Default Changelist" comment="" />
+      <created>1569116825040</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569116825040</updated>
+      <workItem from="1569116830200" duration="1214000" />
+      <workItem from="1569118639561" duration="657000" />
+      <workItem from="1569119316810" duration="490000" />
+      <workItem from="1569140660399" duration="5851000" />
+      <workItem from="1569201258366" duration="587000" />
+      <workItem from="1569215684435" duration="599000" />
+      <workItem from="1569239628985" duration="6078000" />
+      <workItem from="1569287059197" duration="1256000" />
+      <workItem from="1569312800477" duration="2695000" />
+      <workItem from="1569328117085" duration="4407000" />
+      <workItem from="1569373418666" duration="7683000" />
+      <workItem from="1569409911205" duration="29000" />
+      <workItem from="1569477657727" duration="521000" />
+      <workItem from="1569478212885" duration="7659000" />
+      <workItem from="1569658429174" duration="586000" />
+      <workItem from="1569718482813" duration="3044000" />
+      <workItem from="1569758538082" duration="598000" />
+      <workItem from="1569805339779" duration="14390000" />
+      <workItem from="1569972324956" duration="6857000" />
+      <workItem from="1570496590537" duration="6583000" />
+      <workItem from="1570582961883" duration="11388000" />
+      <workItem from="1570669787279" duration="8665000" />
+      <workItem from="1570685434973" duration="7024000" />
+      <workItem from="1570755483202" duration="9592000" />
+      <workItem from="1570842381929" duration="17879000" />
+      <workItem from="1571016875193" duration="16461000" />
+      <workItem from="1571101311814" duration="21796000" />
+      <workItem from="1571187740825" duration="637000" />
+      <workItem from="1571188420195" duration="4461000" />
+      <workItem from="1571274223935" duration="10217000" />
+      <workItem from="1571360993822" duration="16793000" />
+      <workItem from="1571389531971" duration="1224000" />
+      <workItem from="1571549371345" duration="594000" />
+      <workItem from="1571618438217" duration="588000" />
+      <workItem from="1571705846754" duration="1837000" />
+      <workItem from="1571792647137" duration="1901000" />
+      <workItem from="1571832009494" duration="591000" />
+      <workItem from="1571879094037" duration="594000" />
+      <workItem from="1571965337255" duration="1835000" />
+      <workItem from="1572150722871" duration="189000" />
+      <workItem from="1572151215158" duration="3565000" />
+      <workItem from="1572243058828" duration="4034000" />
+      <workItem from="1572260835994" duration="1410000" />
+      <workItem from="1572310694712" duration="2155000" />
+      <workItem from="1572398240322" duration="1964000" />
+      <workItem from="1572484373258" duration="1451000" />
+      <workItem from="1572570242873" duration="4833000" />
+      <workItem from="1572829893290" duration="1192000" />
+      <workItem from="1572868751728" duration="586000" />
+      <workItem from="1572916000503" duration="651000" />
+      <workItem from="1572917153972" duration="83000" />
+      <workItem from="1572942995455" duration="2017000" />
+      <workItem from="1573006480455" duration="1441000" />
+      <workItem from="1573043446129" duration="2558000" />
+      <workItem from="1573089919665" duration="6074000" />
+      <workItem from="1573129967793" duration="588000" />
+      <workItem from="1573173849781" duration="4912000" />
+      <workItem from="1573199970045" duration="2265000" />
+      <workItem from="1573433546765" duration="1875000" />
+      <workItem from="1573520694494" duration="592000" />
+      <workItem from="1573606258564" duration="588000" />
+      <workItem from="1573624196415" duration="5508000" />
+      <workItem from="1573694506722" duration="7637000" />
+      <workItem from="1573779318267" duration="2406000" />
+      <workItem from="1573788902411" duration="1183000" />
+      <workItem from="1573880063366" duration="609000" />
+      <workItem from="1573904418649" duration="585000" />
+      <workItem from="1573955364918" duration="4009000" />
+      <workItem from="1574038680212" duration="1215000" />
+      <workItem from="1574128621881" duration="3599000" />
+      <workItem from="1574211819050" duration="588000" />
+      <workItem from="1574819566251" duration="14169000" />
+      <workItem from="1574904683086" duration="3866000" />
+      <workItem from="1574995114777" duration="9938000" />
+      <workItem from="1575249348729" duration="4839000" />
+      <workItem from="1575334972528" duration="582000" />
+      <workItem from="1575421775102" duration="2404000" />
+      <workItem from="1575443629642" duration="1219000" />
+      <workItem from="1575596299083" duration="6785000" />
+      <workItem from="1575728825538" duration="588000" />
+      <workItem from="1575853693594" duration="13006000" />
+      <workItem from="1575898506073" duration="2032000" />
+      <workItem from="1575939444931" duration="1794000" />
+      <workItem from="1575981615088" duration="561000" />
+      <workItem from="1576026440449" duration="2417000" />
+      <workItem from="1576113239030" duration="24573000" />
+      <workItem from="1576217118061" duration="7156000" />
+      <workItem from="1576379031015" duration="1333000" />
+      <workItem from="1576458585754" duration="1726000" />
+      <workItem from="1576545099183" duration="5499000" />
+      <workItem from="1576631124826" duration="622000" />
+      <workItem from="1576631923931" duration="339000" />
+      <workItem from="1576636514566" duration="3357000" />
+      <workItem from="1576717469371" duration="2029000" />
+      <workItem from="1576805822768" duration="9155000" />
+      <workItem from="1576983776143" duration="595000" />
+      <workItem from="1577063004133" duration="596000" />
+      <workItem from="1577149585979" duration="1204000" />
+      <workItem from="1577168365910" duration="6136000" />
+      <workItem from="1577235863530" duration="8519000" />
+      <workItem from="1577322398962" duration="4269000" />
+      <workItem from="1577409153650" duration="1187000" />
+      <workItem from="1577499470037" duration="5166000" />
+      <workItem from="1577667578967" duration="6076000" />
+      <workItem from="1577756412511" duration="583000" />
+      <workItem from="1577944104065" duration="579000" />
+      <workItem from="1578014055417" duration="1730000" />
+      <workItem from="1578134785403" duration="49000" />
+      <workItem from="1578144065812" duration="1275000" />
+      <workItem from="1578272559323" duration="64000" />
+      <workItem from="1578287742925" duration="1224000" />
+      <workItem from="1578363860848" duration="5458000" />
+      <workItem from="1578450497018" duration="4921000" />
+      <workItem from="1578537643599" duration="4599000" />
+      <workItem from="1578619017110" duration="2561000" />
+      <workItem from="1578877598707" duration="1193000" />
+      <workItem from="1578979264768" duration="1218000" />
+      <workItem from="1581499051759" duration="2287000" />
+      <workItem from="1581559744551" duration="44000" />
+      <workItem from="1583983301205" duration="6441000" />
+      <workItem from="1584062543496" duration="1809000" />
+    </task>
+    <task id="LOCAL-00001" summary="ccc">
+      <created>1569720783446</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569720783446</updated>
+    </task>
+    <task id="LOCAL-00002" summary="java 集合类源码阅读">
+      <created>1570586321289</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570586321289</updated>
+    </task>
+    <task id="LOCAL-00003" summary="oom 以及递归">
+      <created>1570673250972</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570673250972</updated>
+    </task>
+    <task id="LOCAL-00004" summary="pg学习记录">
+      <created>1571187929472</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571187929472</updated>
+    </task>
+    <task id="LOCAL-00005" summary="好久没有跟新了">
+      <created>1573179050551</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573179050551</updated>
+    </task>
+    <task id="LOCAL-00006" summary="一些java基础类的测试代码">
+      <created>1574825178813</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574825178813</updated>
+    </task>
+    <task id="LOCAL-00007" summary="oss lience">
+      <created>1576227145328</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576227145328</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ccc" />
+    <MESSAGE value="java 集合类源码阅读" />
+    <MESSAGE value="oom 以及递归" />
+    <MESSAGE value="pg学习记录" />
+    <MESSAGE value="好久没有跟新了" />
+    <MESSAGE value="一些java基础类的测试代码" />
+    <MESSAGE value="oss lience" />
+    <option name="LAST_COMMIT_MESSAGE" value="oss lience" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1578378763983">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1578378763983" />
+    <state x="488" y="271" width="560" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578640617341">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="488" y="271" width="560" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1578640617341" />
+    <state x="226" y="2" key="CommitChangelistDialog2" timestamp="1584088405422">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="226" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584088405422" />
+    <state width="462" height="466" key="DebuggerActiveHint" timestamp="1584003366477">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="462" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1584003366477" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581559788538">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581559788538" />
+    <state width="1257" height="197" key="GridCell.Tab.0.bottom" timestamp="1584003473879">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1257" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584003473879" />
+    <state width="1257" height="197" key="GridCell.Tab.0.center" timestamp="1584003473879">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1257" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584003473879" />
+    <state width="1257" height="197" key="GridCell.Tab.0.left" timestamp="1584003473878">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1257" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584003473878" />
+    <state width="1257" height="197" key="GridCell.Tab.0.right" timestamp="1584003473879">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1257" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584003473879" />
+    <state width="1257" height="197" key="GridCell.Tab.1.bottom" timestamp="1584003468638">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1257" height="197" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584003468638" />
+    <state width="1257" height="197" key="GridCell.Tab.1.center" timestamp="1584003468638">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1257" height="197" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584003468638" />
+    <state width="1257" height="197" key="GridCell.Tab.1.left" timestamp="1584003468638">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1257" height="197" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584003468638" />
+    <state width="1257" height="197" key="GridCell.Tab.1.right" timestamp="1584003468638">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1257" height="197" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584003468638" />
+    <state x="270" y="55" key="SettingsEditor" timestamp="1578364129233">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578364129233" />
+    <state x="122" y="149" key="new project wizard" timestamp="1583983324776">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="122" y="149" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1583983324776" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/FileDownloadBak.java</url>
+          <line>183</line>
+          <properties class="com.aliyun.oss.demo.FileDownloadBak" method="conditionDownload">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T3FileUploadBak.java</url>
+          <line>300</line>
+          <properties class="com.aliyun.oss.demo.T3FileUploadBak" method="download">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T3FileUploadBak.java</url>
+          <line>21</line>
+          <properties class="com.aliyun.oss.demo.T3FileUploadBak" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/mongo/src/main/java/JongoTest.java</url>
+          <line>20</line>
+          <properties class="JongoTest" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/liscence/src/main/java/com/dist/liscence/RegisterFilter.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/liscence/src/main/java/com/dist/liscence/RegisterFilter.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T3FileUploadBak.java</url>
+          <line>171</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

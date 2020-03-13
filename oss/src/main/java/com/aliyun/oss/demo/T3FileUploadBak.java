@@ -7,25 +7,44 @@ import com.aliyun.oss.model.*;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class T3FileUploadBak {
 
-    private static String endpoint = "http://oss-cn-beijing.aliyuncs.com";
+    private static String endpoint = "oss-cn-shanghai.aliyuncs.com";
 
     // accessKeyId和accessKeySecret是OSS的访问密钥，您可以在控制台上创建和查看，
     // 创建和查看访问密钥的链接地址是：https://ak-console.aliyun.com/#/。
     // 注意：accessKeyId和accessKeySecret前后都没有空格，从控制台复制时请检查并去除多余的空格。
-    private static String accessKeyId = "LTAI4FptiyDnHfYsCPoBSq4Q";
-    private static String accessKeySecret = "HmGxyviLd4N7NMZP41dYa6LU48alU1";
+    private static String accessKeyId = "LTAI4FdZru96HsVwmhmr9TcC";
+    private static String accessKeySecret = "TzvMRzKvYlEV4hplAm9y0CUMxsjG24";
 
     public static void main(String[] args) throws Throwable {
+        list();
 //        partUpload();
-//        listUploadedPartFile("xupptest","a/b/c.zip","9FA18EEF540846BDBDF641EBAB808EB2");
+//        listUploadedPartFile("dist-oss","a/b/c.zip","B17ABFEF50FB4D6FA3A424E9A717861A");
 //        uploadContinue();
 //        partUpload();
 //        putObject();
+//        list
 //        uploadContinue();
-        download();
+//        uploadFile();
+//        download();
+        getsize();
+    }
+
+    public static void list(){
+        OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
+        // 列举文件。 如果不设置KeyPrefix，则列举存储空间下所有的文件。KeyPrefix，则列举包含指定前缀的文件。
+        ObjectListing objectListing = ossClient.listObjects("ghxt-oss");
+        List<OSSObjectSummary> sums = objectListing.getObjectSummaries();
+        for (OSSObjectSummary s : sums) {
+            System.out.println("\t" + s.getKey());
+        }
+// 关闭OSSClient。
+        ossClient.shutdown();
+
+
     }
 
 
@@ -38,7 +57,7 @@ public class T3FileUploadBak {
         meta.setContentType("text/plain");
 
 // 通过UploadFileRequest设置多个参数。
-        UploadFileRequest uploadFileRequest = new UploadFileRequest("xupptest","a/b/c.zip");
+        UploadFileRequest uploadFileRequest = new UploadFileRequest("dist-oss","a/b/c.zip");
 
 // 通过UploadFileRequest设置单个参数。
 // 设置存储空间名称。
@@ -53,6 +72,7 @@ public class T3FileUploadBak {
         uploadFileRequest.setPartSize(1 * 1024 * 1024);
 // 开启断点续传，默认关闭。
         uploadFileRequest.setEnableCheckpoint(true);
+
 // 记录本地分片上传结果的文件。开启断点续传功能时需要设置此参数，上传过程中的进度信息会保存在该文件中，如果某一分片上传失败，再次上传时会根据文件中记录的点继续上传。上传完成后，该文件会被删除。默认与待上传的本地文件同目录，为uploadFile.ucp。
         uploadFileRequest.setCheckpointFile("H:/c.ucp");
 // 文件的元数据。
@@ -79,18 +99,18 @@ public class T3FileUploadBak {
         // 设置分页时每一页中分片数量为100个。默认列举1000个分片。
         listPartsRequest.setMaxParts(100);
         // 指定List的起始位置。只有分片号大于该参数值的分片会被列出。
-        listPartsRequest.setPartNumberMarker(2);
+        listPartsRequest.setPartNumberMarker(1);
         PartListing partListing = ossClient.listParts(listPartsRequest);
 
         for (PartSummary part : partListing.getParts()) {
             // 获取分片号。
-            System.out.println(part.getPartNumber());
+            System.out.println("part number:>>>"+part.getPartNumber());
             // 获取分片数据大小。
-            System.out.println(part.getSize());
+//            System.out.println(part.getSize());
             // 获取分片的ETag。
-            System.out.println(part.getETag());
+//            System.out.println(part.getETag());
             // 获取分片的最后修改时间。
-            System.out.println( part.getLastModified());
+//            System.out.println( part.getLastModified());
         }
 
 // 关闭OSSClient。
@@ -106,7 +126,7 @@ public class T3FileUploadBak {
         OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
 
 // 创建InitiateMultipartUploadRequest对象。
-        InitiateMultipartUploadRequest request = new InitiateMultipartUploadRequest("xupptest", objectName);
+        InitiateMultipartUploadRequest request = new InitiateMultipartUploadRequest("ghxt-oss", objectName);
 
 // 如果需要在初始化分片时设置文件存储类型，请参考以下示例代码。
 // ObjectMetadata metadata = new ObjectMetadata();
@@ -116,14 +136,14 @@ public class T3FileUploadBak {
 // 初始化分片。
         InitiateMultipartUploadResult upresult = ossClient.initiateMultipartUpload(request);
 // 返回uploadId，它是分片上传事件的唯一标识，您可以根据这个ID来发起相关的操作，如取消分片上传、查询分片上传等。
-        String uploadId = upresult.getUploadId();
+        String uploadId = "B40561BC1D73496D8F021A7F5BC17EEC";
         System.out.println(uploadId);
 
 // partETags是PartETag的集合。PartETag由分片的ETag和分片号组成。
         List<PartETag> partETags =  new ArrayList<PartETag>();
 // 计算文件有多少个分片。
         final long partSize = 1 * 1024 * 1024L;   // 1MB
-        final File sampleFile = new File("H:/a.zip");
+        final File sampleFile = new File("H:/f.zip");
         long fileLength = sampleFile.length();
         System.out.println(fileLength);
         int partCount = (int) (fileLength / partSize);
@@ -131,17 +151,31 @@ public class T3FileUploadBak {
         if (fileLength % partSize != 0) {
             partCount++;
         }
-
-
 // 遍历分片上传。
-        for (int i = 0; i < partCount; i++) {
+        ListPartsRequest listPartsRequest = new ListPartsRequest("dist-oss", objectName, uploadId);
+
+
+        // 设置uploadId。
+        //listPartsRequest.setUploadId(uploadId);
+        // 设置分页时每一页中分片数量为100个。默认列举1000个分片。
+        listPartsRequest.setMaxParts(100);
+        // 指定List的起始位置。只有分片号大于该参数值的分片会被列出。
+        listPartsRequest.setPartNumberMarker(1);
+        PartListing partListing = ossClient.listParts(listPartsRequest);
+        int startIndex=(int) partListing.getParts().stream().map(PartSummary::getPartNumber).count();
+
+        System.out.println("startIndex:>>"+startIndex);
+        for (int i = startIndex; i < partCount; i++) {
+
+
             long startPos = i * partSize;
             long curPartSize = (i + 1 == partCount) ? (fileLength - startPos) : partSize;
             InputStream instream = new FileInputStream(sampleFile);
             // 跳过已经上传的分片。
+            System.out.println("start:>>"+i);
             instream.skip(startPos);
             UploadPartRequest uploadPartRequest = new UploadPartRequest();
-            uploadPartRequest.setBucketName("xupptest");
+            uploadPartRequest.setBucketName("dist-oss");
             uploadPartRequest.setKey(objectName);
             uploadPartRequest.setUploadId(uploadId);
             uploadPartRequest.setInputStream(instream);
@@ -153,12 +187,6 @@ public class T3FileUploadBak {
             UploadPartResult uploadPartResult = ossClient.uploadPart(uploadPartRequest);
             // 每次上传分片之后，OSS的返回结果会包含一个PartETag。PartETag将被保存到partETags中。
             partETags.add(uploadPartResult.getPartETag());
-            listUploadedPartFile("xupptest",objectName,uploadId);
-//            if(i==5){
-//                AbortMultipartUploadRequest abortMultipartUploadRequest =
-//                        new AbortMultipartUploadRequest("xupptest", objectName, uploadId);
-//                ossClient.abortMultipartUpload(abortMultipartUploadRequest);
-//            }
             System.out.println("finsh》》》"+i);
         }
 
@@ -166,7 +194,7 @@ public class T3FileUploadBak {
 // 创建CompleteMultipartUploadRequest对象。
 // 在执行完成分片上传操作时，需要提供所有有效的partETags。OSS收到提交的partETags后，会逐一验证每个分片的有效性。当所有的数据分片验证通过后，OSS将把这些分片组合成一个完整的文件。
         CompleteMultipartUploadRequest completeMultipartUploadRequest =
-                new CompleteMultipartUploadRequest("xupptest", objectName, uploadId, partETags);
+                new CompleteMultipartUploadRequest("dist-oss", objectName, uploadId, partETags);
 
 // 如果需要在完成文件上传的同时设置文件访问权限，请参考以下示例代码。
 // completeMultipartUploadRequest.setObjectACL(CannedAccessControlList.PublicRead);
@@ -185,7 +213,7 @@ public class T3FileUploadBak {
 // 创建PutObjectRequest对象。
         String content = "Hello OSS";
 // <yourObjectName>表示上传文件到OSS时需要指定包含文件后缀在内的完整路径，例如abc/efg/123.jpg。
-        PutObjectRequest putObjectRequest = new PutObjectRequest("xupptest", "keyyyy", new ByteArrayInputStream(content.getBytes()));
+        PutObjectRequest putObjectRequest = new PutObjectRequest("ghxt-oss", "keyyyy", new ByteArrayInputStream(content.getBytes()));
 // 如果需要上传时设置存储类型与访问权限，请参考以下示例代码。
 // ObjectMetadata metadata = new ObjectMetadata();
 // metadata.setHeader(OSSHeaders.OSS_STORAGE_CLASS, StorageClass.Standard.toString());
@@ -254,10 +282,10 @@ public class T3FileUploadBak {
 
 
     static void uploadFile() throws IOException {
-        File file=new File("H:/b.pdf");
+        File file=new File("H:/aa.md");
 
         InputStream inputStream=new FileInputStream(file);
-        String bucketName = "xupptest";
+        String bucketName = "ghxt-oss";
 // <yourObjectName>上传文件到OSS时需要指定包含文件后缀在内的完整路径，例如abc/efg/123.jpg。
         String objectName = "a/b";//这个是 云上的放的路径
 // 创建OSSClient实例。
@@ -271,9 +299,9 @@ public class T3FileUploadBak {
     }
 
     public static  void download() throws IOException {
-        String bucketName = "xupptest";
+        String bucketName = "ghxt-oss";
 // <yourObjectName>从OSS下载文件时需要指定包含文件后缀在内的完整路径，例如abc/efg/123.jpg。
-        String objectName = "a/b/test.pdf";
+        String objectName = "a/b";
 
 // 创建OSSClient实例。
         OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
@@ -283,7 +311,7 @@ public class T3FileUploadBak {
 // 调用ossObject.getObjectContent获取文件输入流，可读取此输入流获取其内容。
         InputStream content = ossObject.getObjectContent();
 
-        String path="H:/c.pdf";
+        String path="H:/c.md";
         if(!new File(path).exists()){
             new File(path).createNewFile();
         }
@@ -302,5 +330,19 @@ public class T3FileUploadBak {
 
 // 关闭OSSClient。
         ossClient.shutdown();
+    }
+
+    //追加上传断点续传
+    public static void getsize(){
+        OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
+        while(true){
+            SimplifiedObjectMeta simplifiedObjectMeta=  ossClient.getSimplifiedObjectMeta("ghxt-oss","a3391380-3fb9-48e5-83d4-ee7a197a2330");
+            System.out.println(simplifiedObjectMeta.getSize());
+
+        }
+
+
+
+
     }
 }

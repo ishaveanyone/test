@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.system.id="GRADLE" type="JAVA_MODULE" version="4">
-  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../mongo" rootProjectPath="$MODULE_DIR$/../../mongo" />
+<module external.linked.project.id="mongo" external.linked.project.path="$MODULE_DIR$/../../mongo" external.root.project.path="$MODULE_DIR$/../../mongo" external.system.id="GRADLE" external.system.module.group="com.dist" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="com.dist" externalSystemModuleVersion="1.0-SNAPSHOT" linkedProjectId="mongo" linkedProjectPath="$MODULE_DIR$/../../mongo" rootProjectPath="$MODULE_DIR$/../../mongo" />
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../mongo" />
+    <content url="file://$MODULE_DIR$/../../mongo">
+      <excludeFolder url="file://$MODULE_DIR$/../../mongo/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../mongo/build" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

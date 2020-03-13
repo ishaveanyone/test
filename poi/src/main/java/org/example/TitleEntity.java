@@ -7,7 +7,7 @@
  * Desc：
  */
 
-package com.dist.xdata.ers.util;
+package org.example;
 
 /**
  * 表头的实体类： 在具体的项目里，可以是你从数据库里查询出来的数据

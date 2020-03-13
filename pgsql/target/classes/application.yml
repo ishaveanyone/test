@@ -1,0 +1,21 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /web
+spring:
+  datasource:
+    url: jdbc:postgresql://192.168.200.123:15432/testxupp?searchPath=xschema
+    username: xupp
+    password: pass
+    driverClassName: org.postgresql.Driver
+  jpa:
+    properties:
+      hibernate:
+#        default_schema: xschema
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        hbm2ddl:
+          auto: none
+        temp:
+          use_jdbc_metadata_defaults: false
+
+    show-sql: true

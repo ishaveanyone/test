@@ -7,7 +7,7 @@
  * Desc：
  */
 
-package com.dist.xdata.ers.util;
+package org.example;
 /**
  * Created by wtj on 2018/5/2.
  */

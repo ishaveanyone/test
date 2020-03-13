@@ -7,14 +7,12 @@
  * Desc：
  */
 
-package com.dist.xdata.ers.util;
-
+package org.example;
 
 
 
 import org.apache.poi.hssf.usermodel.*;
 import org.apache.poi.hssf.util.HSSFColor;
-
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.ss.util.CellRangeAddress;
 import org.apache.poi.ss.util.RegionUtil;
@@ -24,7 +22,6 @@ import java.io.*;
 import java.lang.reflect.Field;
 import java.text.SimpleDateFormat;
 import java.util.*;
-
 
 /**
  * excel处理工具
@@ -148,7 +145,7 @@ public class ExcelTool<T> {
     //内部统一调用的样式初始化
     private void init(int styleFlag){
         this.styleHead = this.workbook.createCellStyle();
-        this.styleHead.setAlignment(HorizontalAlignment.GENERAL);// 左右居中
+        this.styleHead.setAlignment(HorizontalAlignment.CENTER);// 左右居中
         this.styleHead.setVerticalAlignment(VerticalAlignment.CENTER);// 上下居中
         this.styleHead.setRightBorderColor(HSSFColor.HSSFColorPredefined.BLACK.getIndex());
         this.styleHead.setBottomBorderColor(HSSFColor.HSSFColorPredefined.BLACK.getIndex());
@@ -483,7 +480,9 @@ public class ExcelTool<T> {
             cell.setCellValue(text);
             // 合并单元格
             CellRangeAddress cra = new CellRangeAddress(r,endR,c,endC);
-            sheetCo.addMergedRegion(cra);
+            if(!(r==endR&&c==endC)) {
+                sheetCo.addMergedRegion(cra);
+            }
 
             // 使用RegionUtil类为合并后的单元格添加边框
             RegionUtil.setBorderBottom(BorderStyle.valueOf((short)1), cra,sheetCo); // 下边框
@@ -720,7 +719,7 @@ public class ExcelTool<T> {
             return "";
         }
         switch (cell.getCellType()) {
-            case  STRING:
+            case STRING:
                 strCell = cell.getStringCellValue().trim();
                 break;
             case NUMERIC:

@@ -10,10 +10,10 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/servelt/build/libs/exploded/servelt-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="skill-pool.servelt.main/web/Web Gradle : servelt-1.0-SNAPSHOT.war" />
+      <element id="javaee-facet-resources" facet="IDEAWORKSPACE.xupp.skill-pool.servelt.main/web/Web Gradle : servelt-1.0-SNAPSHOT.war" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="skill-pool.servelt.main" />
+          <element id="module-output" name="IDEAWORKSPACE.xupp.skill-pool.servelt.main" />
           <element id="dir-copy" path="$PROJECT_DIR$/servelt/build/resources/main" />
         </element>
         <element id="directory" name="lib">

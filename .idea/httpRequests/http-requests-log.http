@@ -1,0 +1,8 @@
+GET http://52.83.103.252:8086/dgp-server-web-nr/rest/pas/private/smartanalysis/v1/indicator/system
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-18T042816.200.json
+
+###
+

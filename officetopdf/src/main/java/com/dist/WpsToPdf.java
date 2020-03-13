@@ -7,7 +7,7 @@
  * Desc：
  */
 
-package com.dist.xdata.ers.util;
+package com.dist;
 
 import com.jacob.activeX.ActiveXComponent;
 import com.jacob.com.ComThread;
@@ -15,8 +15,12 @@ import com.jacob.com.Dispatch;
 import com.jacob.com.Variant;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import sun.plugin2.util.SystemUtil;
+
 import java.io.File;
 import java.util.Date;
+import java.util.logging.Logger;
+
 /**
  * @author Administrator 需要把动态库：jacob-1.18-x64.dll
  * 单元测试需要手动放入至测试路径下 支持wps 将word转pdf
@@ -25,7 +29,6 @@ public class WpsToPdf {
     private static final int wdFormatPDF = 17;
     private static final int xlTypePDF = 0;
     private static final int ppSaveAsPDF = 32;
-    private static Logger logger = LoggerFactory.getLogger(WpsToPdf.class);
     /**
      * 转换pdf
      * @param inputFile
