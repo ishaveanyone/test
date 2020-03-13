@@ -1,0 +1,33 @@
+# Compiled class file
+*.class
+# ide file
+*.classpath
+*.project
+*.iml
+*.idea
+*.settings
+# Log file
+*.log
+*.versionsBackup
+
+
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+## ignoring target file
+target/
+*/*.iml
+*/target/
+
+## ignoring data folder
+*/data/
+
+## Jrebel
+*rebel*
