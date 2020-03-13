@@ -3,6 +3,184 @@
   <component name="ChangeListManager">
     <list default="true" id="240a68e6-51f3-494a-a694-0217fa4996e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/target/classes/com/dist/activemq/ActivemqApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/target/classes/com/dist/activemq/TestConnect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/target/test-classes/com/dist/activemq/ActivemqApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easyexcel/target/classes/com/dist/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava/target/classes/com/dist/AB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava/target/classes/com/dist/FilterTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava/target/classes/com/dist/FilterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava/target/classes/com/dist/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava/target/classes/com/dist/JoinerBak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava/target/classes/com/dist/ListGroupTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava/target/classes/com/dist/ListGroupTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/jdk7/target/classes/META-INF/jdk7.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/jdk7/target/classes/com/dist/HeapOOM7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/jdk7/target/classes/com/dist/MethodOOM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/jdk7/target/classes/com/dist/NetBak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/jdk7/target/classes/com/dist/StackOOM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/jdk7/target/classes/com/dist/StringBak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/recursive/target/classes/com/dist/CommonRecursive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/recursive/target/classes/com/dist/TailRecursive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/META-INF/jvm.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/ClassLoaderView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/Clerk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/FileBak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/MyClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/Productor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/ServletBak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/TestProductorAndconsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/abstractclass/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/abstractclass/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/abstractclass/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/abstractclass/D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/abstractclass/E.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/abstractclass/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/abstractclass/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/annotation/AnnotationDeal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/annotation/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/annotation/FruitColor$Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/annotation/FruitColor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/annotation/FruitInfoUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/annotation/FruitName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/annotation/FruitProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/annotation/FruitRun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/annotation/MyAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/annotation/TestMyAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/classload/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/classload/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/classload/MyClassLoad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/classload/O.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/classload/OSin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/classload/SingleInstanceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/collection/ArrayListBak$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/collection/ArrayListBak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/collection/ConcurrentHashMapBak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/collection/HashMapBak$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/collection/HashMapBak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/collection/HashSetBak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/collection/LinkHashMapBak$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/collection/LinkHashMapBak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/collection/LinkHashSetBak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/collection/ListAddNull.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/collection/ListBak$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/collection/ListBak$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/collection/ListBak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/collection/StringTableBak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/collection/TreeMapBak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/collection/TreeSetBak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/date/after8/FUN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/date/after8/after8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/date/before8/StringToDate$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/date/before8/StringToDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/date/before8/before8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/enumz/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/enumz/PoolEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/generic/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/generic/F.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/generic/FruitGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/generic/FruitGenerator2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/generic/GenericArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/generic/GenericClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/generic/GenericInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/generic/GenericMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/generic/GenericWildcard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/generic/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/generic/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/generic/StaticGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdk8/CollectorsTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdk8/CollectorsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdk8/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/Ann.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/ClassSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/P.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/ThreadTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/io/AutoCloseable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/io/Flushable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/io/InputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/lang/StringBak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/util/Car$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/util/Car$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/util/Car$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/util/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/util/Day$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/util/Day.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/util/EnumMapExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/util/EnumSetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/util/MapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/util/concurrent/Callable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/util/concurrent/Executor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/util/concurrent/Future.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/util/concurrent/FutureTask$WaitNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/util/concurrent/FutureTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/util/concurrent/RejectedExecutionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/util/concurrent/locks/AbstractOwnableSynchronizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/util/concurrent/locks/Condition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/util/concurrent/locks/Lock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jdksource/util/concurrent/locks/ReadWriteLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jmx/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jmx/HelloMBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jmx/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/jmx/TestMBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/oom/HeapOOM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/oom/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/proxy/cglibproxy/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/proxy/cglibproxy/P.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/proxy/cglibproxy/ProxyFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/proxy/cglibproxy/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/proxy/dynamicproxy/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/proxy/dynamicproxy/BImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/proxy/dynamicproxy/ProxyTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/proxy/dynamicproxy/ProxyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/proxy/staticproxy/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/proxy/staticproxy/AImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/proxy/staticproxy/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/proxy/staticproxy/BProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/serialize/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/dist/serialize/SerializeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/liscence/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/liscence/target/classes/com/dist/liscence/ControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/liscence/target/classes/com/dist/liscence/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/liscence/target/classes/com/dist/liscence/FilterConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/liscence/target/classes/com/dist/liscence/LiscenceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/liscence/target/classes/com/dist/liscence/RegisterConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/liscence/target/classes/com/dist/liscence/RegisterFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/liscence/target/classes/com/dist/liscence/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/liscence/target/classes/liscence" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/liscence/target/test-classes/com/dist/liscence/LiscenceApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/target/classes/com/aliyun/oss/demo/FileDownloadBak$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/target/classes/com/aliyun/oss/demo/FileDownloadBak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/target/classes/com/aliyun/oss/demo/HelloOSS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/target/classes/com/aliyun/oss/demo/PutObjectProgressListener$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/target/classes/com/aliyun/oss/demo/PutObjectProgressListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/target/classes/com/aliyun/oss/demo/ServerSideEncryption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/target/classes/com/aliyun/oss/demo/T1OSSClientInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/target/classes/com/aliyun/oss/demo/T2Bucket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/target/classes/com/aliyun/oss/demo/T3FileUploadBak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/target/classes/com/aliyun/oss/demo/T4FileManage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/target/classes/conf/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/client/client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/client/client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpstopdftest/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpstopdftest/target/classes/com/dist/wpstopdftest/SystemUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpstopdftest/target/classes/com/dist/wpstopdftest/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpstopdftest/target/classes/com/dist/wpstopdftest/WpsToPdf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpstopdftest/target/classes/com/dist/wpstopdftest/WpstopdftestApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpstopdftest/target/classes/dll/jacob/jacob-1.18-M2-x64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpstopdftest/target/classes/dll/jacob/jacob-1.18-M2-x86.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpstopdftest/target/classes/dll/jacob/jacob-1.18-x64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpstopdftest/target/classes/dll/jacob/jacob-1.18-x86.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpstopdftest/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpstopdftest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpstopdftest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpstopdftest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpstopdftest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpstopdftest/target/test-classes/com/dist/wpstopdftest/WpstopdftestApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpstopdftest/target/wpstopdftest-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wpstopdftest/target/wpstopdftest-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -548,7 +726,7 @@
       <workItem from="1581499051759" duration="2287000" />
       <workItem from="1581559744551" duration="44000" />
       <workItem from="1583983301205" duration="6441000" />
-      <workItem from="1584062543496" duration="2296000" />
+      <workItem from="1584062543496" duration="2543000" />
     </task>
     <task id="LOCAL-00001" summary="ccc">
       <created>1569720783446</created>
@@ -606,7 +784,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584088477621</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test">
+      <created>1584088819173</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584088819173</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,7 +818,8 @@
     <MESSAGE value="好久没有跟新了" />
     <MESSAGE value="一些java基础类的测试代码" />
     <MESSAGE value="oss lience" />
-    <option name="LAST_COMMIT_MESSAGE" value="oss lience" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1578378763983">
@@ -644,10 +830,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="488" y="271" width="560" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1578640617341" />
-    <state x="226" y="2" key="CommitChangelistDialog2" timestamp="1584088466292">
+    <state x="226" y="2" key="CommitChangelistDialog2" timestamp="1584088818051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="226" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584088466292" />
+    <state x="226" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584088818051" />
     <state width="462" height="466" key="DebuggerActiveHint" timestamp="1584003366477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -656,22 +842,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581559788538" />
-    <state width="1257" height="197" key="GridCell.Tab.0.bottom" timestamp="1584003473879">
+    <state width="1260" height="214" key="GridCell.Tab.0.bottom" timestamp="1584088921012">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1257" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584003473879" />
-    <state width="1257" height="197" key="GridCell.Tab.0.center" timestamp="1584003473879">
+    <state width="1260" height="214" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584088921012" />
+    <state width="1260" height="214" key="GridCell.Tab.0.center" timestamp="1584088921012">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1257" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584003473879" />
-    <state width="1257" height="197" key="GridCell.Tab.0.left" timestamp="1584003473878">
+    <state width="1260" height="214" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584088921012" />
+    <state width="1260" height="214" key="GridCell.Tab.0.left" timestamp="1584088921012">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1257" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584003473878" />
-    <state width="1257" height="197" key="GridCell.Tab.0.right" timestamp="1584003473879">
+    <state width="1260" height="214" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584088921012" />
+    <state width="1260" height="214" key="GridCell.Tab.0.right" timestamp="1584088921012">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1257" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584003473879" />
+    <state width="1260" height="214" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584088921012" />
     <state width="1257" height="197" key="GridCell.Tab.1.bottom" timestamp="1584003468638">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -3,7 +3,9 @@
   <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../servelt" rootProjectPath="$MODULE_DIR$/../../servelt" />
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
