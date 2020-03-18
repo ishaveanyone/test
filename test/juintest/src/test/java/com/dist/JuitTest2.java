@@ -16,14 +16,15 @@ public class JuitTest2 extends TestCase {
 
     @Test
     public void testEqu2(){
-
         System.out.println(22);
+
     }
 
     @Test
     public void testEqu3(){
         System.out.println(33);
     }
+
 
 
 }
