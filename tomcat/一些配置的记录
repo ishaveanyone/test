@@ -1,0 +1,16 @@
+# 配置manage 
+1.conf/tomcat-user.xml配置如下
+````
+
+        <role rolename="admin-gui"/>
+        <role rolename="manager-gui"/>
+        <role rolename="manager-script"/>
+        <user username="admin" password="admin" roles="admin-gui,manager-gui,manager-script"/>
+
+``````
+2. 修改manage manage-host 中的 META-INF/context.xml 
+注释掉其中的value节点
+
+
+
+
