@@ -1,0 +1,6 @@
+https://docs.awspaas.com/reference-guide/aws-paas-process-gateway-reference-guide/parallel_gateway/README.html
+
+
+一开始给 运行整个流程的时候发现  默认网关不能设置条件 
+
+efault sequenceflow has a condition, which is not allowed

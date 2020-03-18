@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyHttpServletContainer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MyHttpServletContainer.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyHttpServletContainer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MyHttpServletContainer.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/activemq/activemq.iml" filepath="$PROJECT_DIR$/activemq/activemq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activiti/activiti.iml" filepath="$PROJECT_DIR$/activiti/activiti.iml" />
       <module fileurl="file://$PROJECT_DIR$/akka/akka.iml" filepath="$PROJECT_DIR$/akka/akka.iml" />
       <module fileurl="file://$PROJECT_DIR$/asyc/asyc.iml" filepath="$PROJECT_DIR$/asyc/asyc.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/client/client.iml" filepath="$PROJECT_DIR$/springcloud/client/client.iml" />

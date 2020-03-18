@@ -32,6 +32,7 @@
         <option value="$PROJECT_DIR$/fileupdaload/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/poi/pom.xml" />
+        <option value="$PROJECT_DIR$/activiti/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
