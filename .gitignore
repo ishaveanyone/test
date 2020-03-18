@@ -6,6 +6,7 @@
 *.iml
 *.idea
 *.settings
+*/workspace.xml
 # Log file
 *.log
 *.versionsBackup
