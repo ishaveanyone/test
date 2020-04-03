@@ -11,27 +11,49 @@ import java.util.stream.Collectors;
 
 public class T3FileUploadBak {
 
-    private static String endpoint = "oss-cn-shanghai.aliyuncs.com";
+    private static String endpoint = "";
 
     // accessKeyId和accessKeySecret是OSS的访问密钥，您可以在控制台上创建和查看，
     // 创建和查看访问密钥的链接地址是：https://ak-console.aliyun.com/#/。
     // 注意：accessKeyId和accessKeySecret前后都没有空格，从控制台复制时请检查并去除多余的空格。
-    private static String accessKeyId = "LTAI4FdZru96HsVwmhmr9TcC";
-    private static String accessKeySecret = "TzvMRzKvYlEV4hplAm9y0CUMxsjG24";
+    private static String accessKeyId = "";
+    private static String accessKeySecret = "";
 
     public static void main(String[] args) throws Throwable {
-        list();
-//        partUpload();
-//        listUploadedPartFile("dist-oss","a/b/c.zip","B17ABFEF50FB4D6FA3A424E9A717861A");
-//        uploadContinue();
-//        partUpload();
-//        putObject();
-//        list
-//        uploadContinue();
-//        uploadFile();
-//        download();
-        getsize();
+        appendUpload1();
     }
+
+
+   public static void   appendUpload0(){
+        OSS ossClient = new OSSClientBuilder().
+                build(endpoint, accessKeyId, accessKeySecret);
+       AppendObjectRequest appendObjectRequest =
+               new AppendObjectRequest("lshw", "a/b",new File("H:/easy.txt"));
+       appendObjectRequest.setPosition(0L);//初始文件那么在开始位置进行文件添加
+       AppendObjectResult appendObjectResult =
+               ossClient.appendObject(appendObjectRequest);
+       ossClient.shutdown();
+
+    }
+
+    public static void   appendUpload1(){
+        OSS ossClient = new OSSClientBuilder().
+                build(endpoint, accessKeyId, accessKeySecret);
+        AppendObjectRequest appendObjectRequest =
+                new AppendObjectRequest("lshw", "a/b",new File("H:/easy.txt"));
+        appendObjectRequest.setPosition(258012L);//初始文件那么在开始位置进行文件添加
+        AppendObjectResult appendObjectResult =
+                ossClient.appendObject(appendObjectRequest);
+        ossClient.shutdown();
+
+    }
+
+
+
+
+
+
+
 
     public static void list(){
         OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
@@ -57,7 +79,8 @@ public class T3FileUploadBak {
         meta.setContentType("text/plain");
 
 // 通过UploadFileRequest设置多个参数。
-        UploadFileRequest uploadFileRequest = new UploadFileRequest("dist-oss","a/b/c.zip");
+        UploadFileRequest uploadFileRequest = new
+                UploadFileRequest("dist-oss","a/b/c.zip");
 
 // 通过UploadFileRequest设置单个参数。
 // 设置存储空间名称。
@@ -65,7 +88,7 @@ public class T3FileUploadBak {
 // 设置文件名称。
 //uploadFileRequest.setKey("<yourObjectName>");
 // 指定上传的本地文件。
-        uploadFileRequest.setUploadFile("H:/f.zip");
+        uploadFileRequest.setUploadFile("H:/t.zip");
 // 指定上传并发线程数，默认为1。
         uploadFileRequest.setTaskNum(5);
 // 指定上传的分片大小，范围为100KB~5GB，默认为文件大小/10000。
@@ -340,9 +363,6 @@ public class T3FileUploadBak {
             System.out.println(simplifiedObjectMeta.getSize());
 
         }
-
-
-
 
     }
 }

@@ -10,13 +10,13 @@ import com.aliyun.oss.model.ObjectListing;
 import java.util.List;
 
 public class T4FileManage {
-    private static String endpoint = "http://oss-cn-beijing.aliyuncs.com";
+    private static String endpoint = "";
 
     // accessKeyId和accessKeySecret是OSS的访问密钥，您可以在控制台上创建和查看，
     // 创建和查看访问密钥的链接地址是：https://ak-console.aliyun.com/#/。
     // 注意：accessKeyId和accessKeySecret前后都没有空格，从控制台复制时请检查并去除多余的空格。
-    private static String accessKeyId = "LTAI4FptiyDnHfYsCPoBSq4Q";
-    private static String accessKeySecret = "HmGxyviLd4N7NMZP41dYa6LU48alU1";
+    private static String accessKeyId = "";
+    private static String accessKeySecret = "";
     public static void main(String[] args) {
 
 //        exsitFile();

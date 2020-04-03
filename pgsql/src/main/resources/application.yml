@@ -1,21 +1,23 @@
 server:
-  port: 8080
+  port: 7777
   servlet:
     context-path: /web
 spring:
   datasource:
-    url: jdbc:postgresql://192.168.200.123:15432/testxupp?searchPath=xschema
-    username: xupp
-    password: pass
+    url: jdbc:postgresql://10.68.150.36:5432/dgp_oms_nb?searchPath=dgp_oms_nb
+    username: dgp_oms_nb
+    password: pAssw0rd
     driverClassName: org.postgresql.Driver
+
   jpa:
+    hibernate:
+      ddl-auto: create # 数据库的操作模式
     properties:
       hibernate:
-#        default_schema: xschema
+        default_schema: dgp_oms_nb
         dialect: org.hibernate.dialect.PostgreSQLDialect
         hbm2ddl:
           auto: none
         temp:
           use_jdbc_metadata_defaults: false
-
     show-sql: true

@@ -33,6 +33,10 @@
         <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/poi/pom.xml" />
         <option value="$PROJECT_DIR$/activiti/pom.xml" />
+        <option value="$PROJECT_DIR$/elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/flowable/pom.xml" />
+        <option value="$PROJECT_DIR$/leetcode/pom.xml" />
+        <option value="$PROJECT_DIR$/rqreport/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

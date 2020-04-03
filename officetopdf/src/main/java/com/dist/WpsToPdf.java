@@ -5,36 +5,41 @@
  * Author: xupp
  * Email: xupp@dist.com.cn
  * Desc：
- */
+ *//*
+
 
 package com.dist;
+
 
 import com.jacob.activeX.ActiveXComponent;
 import com.jacob.com.ComThread;
 import com.jacob.com.Dispatch;
 import com.jacob.com.Variant;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import sun.plugin2.util.SystemUtil;
 
 import java.io.File;
 import java.util.Date;
 import java.util.logging.Logger;
 
+*/
 /**
  * @author Administrator 需要把动态库：jacob-1.18-x64.dll
  * 单元测试需要手动放入至测试路径下 支持wps 将word转pdf
- */
+ *//*
+
 public class WpsToPdf {
     private static final int wdFormatPDF = 17;
     private static final int xlTypePDF = 0;
     private static final int ppSaveAsPDF = 32;
-    /**
+
+    */
+/**
      * 转换pdf
      * @param inputFile
      * @param pdfFile
      * @return
-     */
+     *//*
+
     public static boolean convert2PDF(String inputFile, String pdfFile) {
         String suffix = getFileSufix(inputFile);
         String newInputFile = "";
@@ -139,14 +144,16 @@ public class WpsToPdf {
 
 
 
-    /***
+    */
+/***
      *
      * Word转PDF
      *
      * @param inputFile
      * @param pdfFile
      * @return
-     */
+     *//*
+
 
     private static Boolean word2PDF(String inputFile, String pdfFile) {
         Boolean flag=true;
@@ -164,14 +171,16 @@ public class WpsToPdf {
             Dispatch docs = app.getProperty("Documents").toDispatch();
             // 调用Documents对象中Open方法打开文档，并返回打开的文档对象Document
             Dispatch doc = Dispatch.call(docs, "Open", inputFile, false, true).toDispatch();
-            /***
+            */
+/***
              *
              * 调用Document对象的SaveAs方法，将文档保存为pdf格式
              *
              * Dispatch.call(doc, "SaveAs", pdfFile, wdFormatPDF
              * word保存为pdf格式宏，值为17 )
              *
-             */
+             *//*
+
             Dispatch.call(doc, "ExportAsFixedFormat", pdfFile, wdFormatPDF);// word保存为pdf格式宏，值为17
             System.out.println(doc);
             // 关闭文档
@@ -203,14 +212,16 @@ public class WpsToPdf {
 
     }
 
-    /***
+    */
+/***
      *
      * Excel转化成PDF
      *
      * @param inputFile
      * @param pdfFile
      * @return
-     */
+     *//*
+
     private static Boolean Ex2PDF(String inputFile, String pdfFile) {
         try {
             ComThread.InitSTA(false);
@@ -232,13 +243,15 @@ public class WpsToPdf {
             }, new int[1]);
 
             // 这里放弃使用SaveAs
-            /*
+            */
+/*
              * Dispatch.invoke(excel,"SaveAs",Dispatch.Method,new Object[]{
              * outFile, new Variant(57), new Variant(false), new Variant(57),
              * new Variant(57), new Variant(false), new Variant(true), new
              * Variant(57), new Variant(true), new Variant(true), new
              * Variant(true) },new int[1]);
-             */
+             *//*
+
             long date2 = new Date().getTime();
             int time = (int) ((date2 - date) / 1000);
             Dispatch.call(excel, "Close", new Variant(false));
@@ -270,13 +283,15 @@ public class WpsToPdf {
         }
     }
 
-    /***
+    */
+/***
      * ppt转化成PDF
      *
      * @param inputFile
      * @param pdfFile
      * @return
-     */
+     *//*
+
     private static Boolean ppt2PDF(String inputFile, String pdfFile) {
         try {
             ComThread.InitSTA(false);
@@ -332,3 +347,4 @@ public class WpsToPdf {
 
 
 }
+*/

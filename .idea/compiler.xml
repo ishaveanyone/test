@@ -6,33 +6,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="regexp" />
-        <module name="fileupdaload" />
-        <module name="client" />
-        <module name="redis" />
-        <module name="springbootq" />
-        <module name="wpstopdftest" />
-        <module name="liscence" />
-        <module name="asyc" />
-        <module name="guava" />
-        <module name="officetopdf" />
-        <module name="springdubbo" />
-        <module name="oss" />
-        <module name="rpc" />
-        <module name="rabbitmq" />
-        <module name="jdk7" />
-        <module name="activiti" />
-        <module name="quartz" />
-        <module name="poi" />
-        <module name="springboot2xx" />
-        <module name="websocket" />
-        <module name="pgsql" />
-        <module name="easyexcel" />
-        <module name="activemq" />
-        <module name="nacos" />
         <module name="akka" />
+        <module name="rpc" />
+        <module name="websocket" />
+        <module name="client" />
+        <module name="jdk7" />
         <module name="rmi" />
+        <module name="oss" />
+        <module name="wpstopdftest" />
+        <module name="springboot2xx" />
+        <module name="activemq" />
+        <module name="guava" />
+        <module name="pgsql" />
+        <module name="springbootq" />
         <module name="recursive" />
+        <module name="flowable" />
+        <module name="elasticSearch" />
+        <module name="asyc" />
+        <module name="nacos" />
+        <module name="quartz" />
+        <module name="leetcode" />
+        <module name="officetopdf" />
+        <module name="regexp" />
+        <module name="poi" />
+        <module name="springdubbo" />
+        <module name="rqreport" />
+        <module name="redis" />
+        <module name="easyexcel" />
+        <module name="rabbitmq" />
+        <module name="liscence" />
+        <module name="fileupdaload" />
+        <module name="activiti" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -50,7 +54,9 @@
       <module name="com.dist.test.juintest.main" target="1.8" />
       <module name="com.dist.test.juintest.test" target="1.8" />
       <module name="easyexcel" target="1.8" />
+      <module name="elasticSearch" target="1.5" />
       <module name="fileupdaload" target="1.8" />
+      <module name="flowable" target="1.5" />
       <module name="guava" target="1.7" />
       <module name="IDEAWORKSPACE.xupp.skill-pool.servelt.main" target="1.8" />
       <module name="IDEAWORKSPACE.xupp.skill-pool.servelt.test" target="1.8" />
@@ -58,6 +64,7 @@
       <module name="jdbcpool.test" target="1.8" />
       <module name="jdk7" target="1.7" />
       <module name="jvm" target="1.8" />
+      <module name="leetcode" target="1.5" />
       <module name="liscence" target="1.8" />
       <module name="mongo" target="1.5" />
       <module name="mongo.main" target="1.8" />
@@ -80,6 +87,7 @@
       <module name="regexp" target="1.8" />
       <module name="rmi" target="1.8" />
       <module name="rpc" target="1.8" />
+      <module name="rqreport" target="7" />
       <module name="servelt.main" target="1.8" />
       <module name="servelt.test" target="1.8" />
       <module name="skill-pool.servelt.main" target="1.8" />
@@ -106,6 +114,7 @@
       <module name="liscence" options="-parameters" />
       <module name="pgsql" options="-parameters" />
       <module name="redis" options="-parameters" />
+      <module name="rqreport" options="-endorseddirs H:\IDEAWORKSPACE\xupp\skill-pool\rqreport\target/endorsed" />
       <module name="springboot2xx" options="-parameters" />
       <module name="springbootq" options="-parameters" />
       <module name="springdubbo" options="-parameters" />

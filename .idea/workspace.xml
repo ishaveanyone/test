@@ -2,14 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="240a68e6-51f3-494a-a694-0217fa4996e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/poi/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poi/src/main/java/org/example/OpExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat/一些配置的记录" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowable/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/jdk7/src/main/java/com/dist/LoopThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/annotation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/annotation/MyAnno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/classload/InnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/classload/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/file/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/numic/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/officetopdf/a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/officetopdf/src/main/java/com/dist/Kkfileview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/TestEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/TestRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rqreport/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/poi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/poi/poi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/poi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/juintest/src/test/java/com/dist/JuitTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/juintest/src/test/java/com/dist/JuitTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/juintest/src/test/java/com/dist/MyAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/juintest/src/test/java/com/dist/Myctest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/jdk7/src/main/java/com/dist/StringBak.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/jdk7/src/main/java/com/dist/StringBak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/.gradle/5.2.1/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rqreport/src/main/java/org/example/ExportExcel.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/build/classes/java/main/JongoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/build/classes/java/main/MongoQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/src/main/java/JongoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/src/main/java/MongoQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/officetopdf/officetopdf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/officetopdf/officetopdf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/officetopdf/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/officetopdf/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/officetopdf/src/main/java/com/dist/WpsToPdf.java" beforeDir="false" afterPath="$PROJECT_DIR$/officetopdf/src/main/java/com/dist/WpsToPdf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/HelloOSS.java" beforeDir="false" afterPath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/HelloOSS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/PutObjectProgressListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/PutObjectProgressListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/ServerSideEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/ServerSideEncryption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T1OSSClientInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T1OSSClientInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T2Bucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T2Bucket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T3FileUploadBak.java" beforeDir="false" afterPath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T3FileUploadBak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T4FileManage.java" beforeDir="false" afterPath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T4FileManage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T1Resp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T2Resp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T3Resp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T5Resp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T6Resp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/TResp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pgsql/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pgsql/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T1Resp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T2Resp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T3Resp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T5Resp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T6Resp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/TResp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/TestController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,11 +193,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Kotlin File" />
+        <option value="HTML File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -163,15 +241,12 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\wpstopdftest\src\main\resources\dll" />
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\MyHttpServletContainer\src\main\webapp" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.dist" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool" />
-      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\poi\src\main\java\org\example" />
-      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\wpstopdftest\src\main\resources" />
-      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\liscence\src\main\java\com\dist\liscence" />
-      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\oss\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example" />
@@ -180,9 +255,12 @@
       <recent name="com.dist.liscence" />
       <recent name="com.dist.pgsql" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\wpstopdftest\src\main\resources\dll" />
-      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\MyHttpServletContainer\src\main\webapp" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\activiti" />
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool" />
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\poi\src\main\java\org\example" />
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\wpstopdftest\src\main\resources" />
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\liscence\src\main\java\com\dist\liscence" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -213,10 +291,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Spring Boot.PgsqlApplication">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dist.file.Main" />
+      <module name="jvm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dist.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="poi" />
+      <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -240,19 +331,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T2Bucket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aliyun.oss.demo.T2Bucket" />
-      <module name="oss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aliyun.oss.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="T3FileUploadBak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aliyun.oss.demo.T3FileUploadBak" />
       <module name="oss" />
@@ -266,15 +344,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TestMain" />
-      <module name="poi" />
+    <configuration name="StringBak.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdk7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="com.dist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.dist" />
+      <option name="MAIN_CLASS_NAME" value="com.dist.StringBak" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -384,11 +465,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.T2Bucket" />
       <item itemvalue="Application.StringBak" />
+      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.T3FileUploadBak" />
-      <item itemvalue="Application.TestMain" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.StringBak.test1" />
       <item itemvalue="Spring Boot.ClientApplication" />
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.SpringdubboApplication" />
@@ -406,10 +487,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TestMain" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.T3FileUploadBak" />
-        <item itemvalue="Application.T2Bucket" />
         <item itemvalue="Application.StringBak" />
+        <item itemvalue="JUnit.StringBak.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -562,7 +643,18 @@
       <workItem from="1584350912758" duration="991000" />
       <workItem from="1584406761976" duration="6223000" />
       <workItem from="1584494195205" duration="1562000" />
-      <workItem from="1584509330741" duration="1991000" />
+      <workItem from="1584509330741" duration="11225000" />
+      <workItem from="1584579943242" duration="14626000" />
+      <workItem from="1584665750201" duration="590000" />
+      <workItem from="1584926207397" duration="6033000" />
+      <workItem from="1585011889370" duration="6078000" />
+      <workItem from="1585098465396" duration="4278000" />
+      <workItem from="1585185624697" duration="7494000" />
+      <workItem from="1585551898733" duration="4520000" />
+      <workItem from="1585574030464" duration="1194000" />
+      <workItem from="1585617029902" duration="6115000" />
+      <workItem from="1585795131024" duration="6246000" />
+      <workItem from="1585907999147" duration="199000" />
     </task>
     <task id="LOCAL-00001" summary="ccc">
       <created>1569720783446</created>
@@ -634,7 +726,35 @@
       <option name="project" value="LOCAL" />
       <updated>1584088970368</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="一个excel 测试">
+      <created>1584511841108</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584511841108</updated>
+    </task>
+    <task id="LOCAL-00012" summary="tomcat的一些配置记录">
+      <created>1584511866027</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1584511866027</updated>
+    </task>
+    <task id="LOCAL-00013" summary="排除worksapce文件">
+      <created>1584511927423</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1584511927423</updated>
+    </task>
+    <task id="LOCAL-00014" summary="activiti 工作流引擎的学习">
+      <created>1584512190350</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1584512190350</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -662,13 +782,17 @@
     <MESSAGE value="一些java基础类的测试代码" />
     <MESSAGE value="oss lience" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="一个excel 测试" />
+    <MESSAGE value="tomcat的一些配置记录" />
+    <MESSAGE value="排除worksapce文件" />
+    <MESSAGE value="activiti 工作流引擎的学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="activiti 工作流引擎的学习" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Project_Structure" timestamp="1578378763983">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1585552439973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1578378763983" />
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585552439973" />
     <state x="492" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584502003099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -677,82 +801,86 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="488" y="271" width="560" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1578640617341" />
-    <state x="226" y="2" key="CommitChangelistDialog2" timestamp="1584088967865">
+    <state x="226" y="2" key="CommitChangelistDialog2" timestamp="1584512188361">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="226" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584088967865" />
-    <state width="462" height="466" key="DebuggerActiveHint" timestamp="1584003366477">
+    <state x="226" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584512188361" />
+    <state width="462" height="466" key="DebuggerActiveHint" timestamp="1584948825472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="462" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1584003366477" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581559788538">
+    <state width="462" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1584948825472" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1585634404958">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581559788538" />
-    <state width="1256" height="214" key="GridCell.Tab.0.bottom" timestamp="1584411505662">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585634404958" />
+    <state width="1242" height="254" key="GridCell.Tab.0.bottom" timestamp="1585561597228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1256" height="214" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584411505662" />
-    <state width="1256" height="214" key="GridCell.Tab.0.center" timestamp="1584411505662">
+    <state width="1242" height="254" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585561597228" />
+    <state width="1242" height="254" key="GridCell.Tab.0.center" timestamp="1585561597227">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1256" height="214" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584411505662" />
-    <state width="1256" height="214" key="GridCell.Tab.0.left" timestamp="1584411505662">
+    <state width="1242" height="254" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585561597227" />
+    <state width="1242" height="254" key="GridCell.Tab.0.left" timestamp="1585561597227">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1256" height="214" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584411505662" />
-    <state width="1256" height="214" key="GridCell.Tab.0.right" timestamp="1584411505662">
+    <state width="1242" height="254" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585561597227" />
+    <state width="1242" height="254" key="GridCell.Tab.0.right" timestamp="1585561597228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1256" height="214" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584411505662" />
-    <state width="1256" height="197" key="GridCell.Tab.1.bottom" timestamp="1584351870495">
+    <state width="1242" height="254" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585561597228" />
+    <state width="1242" height="254" key="GridCell.Tab.1.bottom" timestamp="1585561597228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1256" height="197" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584351870495" />
-    <state width="1256" height="197" key="GridCell.Tab.1.center" timestamp="1584351870495">
+    <state width="1242" height="254" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585561597228" />
+    <state width="1242" height="254" key="GridCell.Tab.1.center" timestamp="1585561597228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1256" height="197" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584351870495" />
-    <state width="1256" height="197" key="GridCell.Tab.1.left" timestamp="1584351870495">
+    <state width="1242" height="254" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585561597228" />
+    <state width="1242" height="254" key="GridCell.Tab.1.left" timestamp="1585561597228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1256" height="197" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584351870495" />
-    <state width="1256" height="197" key="GridCell.Tab.1.right" timestamp="1584351870495">
+    <state width="1242" height="254" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585561597228" />
+    <state width="1242" height="254" key="GridCell.Tab.1.right" timestamp="1585561597228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1256" height="197" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584351870495" />
-    <state x="270" y="55" key="SettingsEditor" timestamp="1578364129233">
+    <state width="1242" height="254" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585561597228" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1585030823974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578364129233" />
-    <state x="490" y="154" width="561" height="524" key="StructurePopup" timestamp="1584510886609">
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585030823974" />
+    <state x="490" y="154" width="561" height="524" key="StructurePopup" timestamp="1585032234030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="490" y="154" width="561" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1584510886609" />
-    <state width="498" height="456" key="SwitcherDM" timestamp="1584510815137">
+    <state x="490" y="154" width="561" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1585032234030" />
+    <state width="498" height="561" key="SwitcherDM" timestamp="1585032222527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="498" height="456" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1584510815137" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1584088976826">
+    <state width="498" height="561" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1585032222527" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1584512202724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584088976826" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584512202724" />
     <state width="602" height="338" key="javadoc.popup" timestamp="1584511271370">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="628" height="400" key="javadoc.popup.new" timestamp="1584406936430">
+    <state width="628" height="400" key="javadoc.popup.new" timestamp="1585200525308">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="628" height="400" key="javadoc.popup.new/0.0.1536.824@0.0.1536.824" timestamp="1584406936430" />
+    <state width="628" height="400" key="javadoc.popup.new/0.0.1536.824@0.0.1536.824" timestamp="1585200525308" />
     <state width="602" height="338" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1584511271370" />
-    <state x="-22" y="167" key="new project wizard" timestamp="1584502243591">
+    <state x="178" y="108" key="new project wizard" timestamp="1585029121295">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="-22" y="167" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1584502243591" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584510864032">
+    <state x="178" y="108" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1585029121295" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1584524073443">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1584510864032" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1584524073443" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585554253526">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585554253526" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -767,7 +895,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T3FileUploadBak.java</url>
-          <line>300</line>
+          <line>323</line>
           <properties class="com.aliyun.oss.demo.T3FileUploadBak" method="download">
             <option name="EMULATED" value="true" />
           </properties>
@@ -784,7 +912,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/mongo/src/main/java/JongoTest.java</url>
           <line>20</line>
-          <properties class="JongoTest" method="main">
+          <properties class="JongoTest">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="108" />
@@ -801,10 +929,65 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T3FileUploadBak.java</url>
-          <line>171</line>
+          <line>194</line>
           <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jvm/jdk7/src/main/java/com/dist/StringBak.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jvm/src/main/java/com/dist/file/Main.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jvm/src/main/java/com/dist/file/Main.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jvm/src/main/java/com/dist/file/Main.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jvm/src/main/java/com/dist/file/Main.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/org/example/Main.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/org/example/Main.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/org/example/Main.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/org/example/Main.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://G:/jdk/jdk1.8.0_171/src.zip!/java/lang/Math.java</url>
+          <line>1182</line>
+          <option name="timeStamp" value="137" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/skill_pool$StringBak.ic" NAME="StringBak Coverage Results" MODIFIED="1584586036448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.dist.*</FILTER>
+    </SUITE>
   </component>
 </project>
