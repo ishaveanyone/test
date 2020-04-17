@@ -4,20 +4,19 @@ server:
     context-path: /web
 spring:
   datasource:
-    url: jdbc:postgresql://10.68.150.36:5432/postgres?searchPath=dgp_oms_nb
-    username: dgp_oms_nb
-    password: pAssw0rd
+    url: jdbc:postgresql://192.168.200.123:15432/dgpers_dev
+    username: dgpers_dev
+    password: Passw0rd
     driverClassName: org.postgresql.Driver
-
   jpa:
     hibernate:
-      ddl-auto: create # 数据库的操作模式
+      ddl-auto: update  # 数据库的操作模式
     properties:
       hibernate:
-        default_schema: dgp_oms_nb
+        default_schema: dgpers_dev
         dialect: org.hibernate.dialect.PostgreSQLDialect
         hbm2ddl:
-          auto: none
+          auto: update
         temp:
           use_jdbc_metadata_defaults: false
     show-sql: true

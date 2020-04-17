@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/flowable/flowable.iml" filepath="$PROJECT_DIR$/flowable/flowable.iml" />
       <module fileurl="file://$PROJECT_DIR$/guava/guava.iml" filepath="$PROJECT_DIR$/guava/guava.iml" />
       <module fileurl="file://$PROJECT_DIR$/heart/heart.iml" filepath="$PROJECT_DIR$/heart/heart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbcpool.main.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbcpool.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbcpool.test.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbcpool.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/jvm/jdk7/jdk7.iml" filepath="$PROJECT_DIR$/jvm/jdk7/jdk7.iml" />
@@ -66,6 +67,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/juintest/test.juintest.iml" filepath="$PROJECT_DIR$/.idea/modules/juintest/test.juintest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/juintest/test.juintest.main.iml" filepath="$PROJECT_DIR$/.idea/modules/juintest/test.juintest.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/juintest/test.juintest.test.iml" filepath="$PROJECT_DIR$/.idea/modules/juintest/test.juintest.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
       <module fileurl="file://$PROJECT_DIR$/websocket/websocket.iml" filepath="$PROJECT_DIR$/websocket/websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/wpstopdftest/wpstopdftest.iml" filepath="$PROJECT_DIR$/wpstopdftest/wpstopdftest.iml" />

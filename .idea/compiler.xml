@@ -10,6 +10,7 @@
         <module name="rpc" />
         <module name="websocket" />
         <module name="client" />
+        <module name="jdbc" />
         <module name="jdk7" />
         <module name="rmi" />
         <module name="oss" />
@@ -21,7 +22,7 @@
         <module name="springbootq" />
         <module name="recursive" />
         <module name="flowable" />
-        <module name="elasticSearch" />
+        <module name="util" />
         <module name="asyc" />
         <module name="nacos" />
         <module name="quartz" />
@@ -34,8 +35,9 @@
         <module name="redis" />
         <module name="easyexcel" />
         <module name="rabbitmq" />
-        <module name="liscence" />
         <module name="fileupdaload" />
+        <module name="liscence" />
+        <module name="elasticSearch" />
         <module name="activiti" />
       </profile>
     </annotationProcessing>
@@ -60,6 +62,7 @@
       <module name="guava" target="1.7" />
       <module name="IDEAWORKSPACE.xupp.skill-pool.servelt.main" target="1.8" />
       <module name="IDEAWORKSPACE.xupp.skill-pool.servelt.test" target="1.8" />
+      <module name="jdbc" target="1.8" />
       <module name="jdbcpool.main" target="1.8" />
       <module name="jdbcpool.test" target="1.8" />
       <module name="jdk7" target="1.7" />
@@ -100,6 +103,7 @@
       <module name="springdubbo" target="1.8" />
       <module name="test.juintest.main" target="1.8" />
       <module name="test.juintest.test" target="1.8" />
+      <module name="util" target="1.8" />
       <module name="websocket" target="1.8" />
       <module name="wpstopdftest" target="1.8" />
       <module name="xupp.skill-pool.servelt.main" target="1.8" />

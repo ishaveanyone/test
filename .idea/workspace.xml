@@ -2,92 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="240a68e6-51f3-494a-a694-0217fa4996e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/flowable/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/jdk7/src/main/java/com/dist/LoopThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/annotation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/annotation/MyAnno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/classload/InnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/classload/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/file/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/numic/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/officetopdf/a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/officetopdf/src/main/java/com/dist/Kkfileview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/TestEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/TestRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rqreport/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/resources/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/resources/region.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/AbstractProject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/ErsXCQYTDZZEngineeringFormFlowEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/Collection/ListUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/Collection/MapUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm/jdk7/src/main/java/com/dist/StringBak.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/jdk7/src/main/java/com/dist/StringBak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/.gradle/5.2.1/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rqreport/src/main/java/org/example/ExportExcel.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/build/classes/java/main/JongoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/build/classes/java/main/MongoQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/src/main/java/JongoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/src/main/java/MongoQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/officetopdf/officetopdf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/officetopdf/officetopdf.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/officetopdf/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/officetopdf/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/officetopdf/src/main/java/com/dist/WpsToPdf.java" beforeDir="false" afterPath="$PROJECT_DIR$/officetopdf/src/main/java/com/dist/WpsToPdf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/HelloOSS.java" beforeDir="false" afterPath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/HelloOSS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/PutObjectProgressListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/PutObjectProgressListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/ServerSideEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/ServerSideEncryption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T1OSSClientInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T1OSSClientInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T2Bucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T2Bucket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T3FileUploadBak.java" beforeDir="false" afterPath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T3FileUploadBak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T4FileManage.java" beforeDir="false" afterPath="$PROJECT_DIR$/oss/src/main/java/com/aliyun/oss/demo/T4FileManage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T1Resp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T2Resp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T3Resp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T5Resp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/T6Resp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/TResp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/TestEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/src/main/java/com/dist/pgsql/TestRepo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pgsql/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pgsql/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pgsql/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pgsql/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T1Resp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T2Resp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T3Resp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T5Resp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/T6Resp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/TResp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pgsql/target/classes/com/dist/pgsql/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdubbo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springdubbo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,8 +131,8 @@
         <option value="CSS File" />
         <option value="Kotlin File" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -249,18 +184,18 @@
       <recent name="com.dist" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dist.pgsql" />
       <recent name="org.example" />
       <recent name="com.dist.wpstopdftest" />
       <recent name="com.dist" />
       <recent name="com.dist.liscence" />
-      <recent name="com.dist.pgsql" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\jdbc\src\main\resources" />
       <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\activiti" />
       <recent name="H:\IDEAWORKSPACE\xupp\skill-pool" />
       <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\poi\src\main\java\org\example" />
       <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\wpstopdftest\src\main\resources" />
-      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\liscence\src\main\java\com\dist\liscence" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -344,17 +279,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBak.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdk7" />
+    <configuration name="MapUtil.selectRemoveMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="util" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dist.*" />
+          <option name="PATTERN" value="Collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dist" />
-      <option name="MAIN_CLASS_NAME" value="com.dist.StringBak" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="Collection" />
+      <option name="MAIN_CLASS_NAME" value="Collection.MapUtil" />
+      <option name="METHOD_NAME" value="selectRemoveMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -469,7 +404,7 @@
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.T3FileUploadBak" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.StringBak.test1" />
+      <item itemvalue="JUnit.MapUtil.selectRemoveMap" />
       <item itemvalue="Spring Boot.ClientApplication" />
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.SpringdubboApplication" />
@@ -486,11 +421,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MapUtil.selectRemoveMap" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.T3FileUploadBak" />
         <item itemvalue="Application.StringBak" />
-        <item itemvalue="JUnit.StringBak.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -655,6 +590,17 @@
       <workItem from="1585617029902" duration="6115000" />
       <workItem from="1585795131024" duration="6246000" />
       <workItem from="1585907999147" duration="199000" />
+      <workItem from="1586397442531" duration="1060000" />
+      <workItem from="1586481882918" duration="2180000" />
+      <workItem from="1586517891147" duration="806000" />
+      <workItem from="1586568967278" duration="5088000" />
+      <workItem from="1586583369678" duration="4363000" />
+      <workItem from="1586683895217" duration="905000" />
+      <workItem from="1586765278645" duration="677000" />
+      <workItem from="1586777145209" duration="1778000" />
+      <workItem from="1586913098247" duration="1282000" />
+      <workItem from="1586999570723" duration="2381000" />
+      <workItem from="1587110947411" duration="50000" />
     </task>
     <task id="LOCAL-00001" summary="ccc">
       <created>1569720783446</created>
@@ -789,62 +735,82 @@
     <option name="LAST_COMMIT_MESSAGE" value="activiti 工作流引擎的学习" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Project_Structure" timestamp="1585552439973">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1586569392604">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585552439973" />
-    <state x="492" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584502003099">
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1586569392604" />
+    <state x="492" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586569610490">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="492" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1584502003099" />
+    <state x="492" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1586569610490" />
     <state x="488" y="271" width="560" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578640617341">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="488" y="271" width="560" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1578640617341" />
-    <state x="226" y="2" key="CommitChangelistDialog2" timestamp="1584512188361">
+    <state x="226" y="2" key="CommitChangelistDialog2" timestamp="1587111026103">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="226" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584512188361" />
+    <state x="226" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587111026103" />
     <state width="462" height="466" key="DebuggerActiveHint" timestamp="1584948825472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="462" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1584948825472" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1585634404958">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1587004734471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585634404958" />
-    <state width="1242" height="254" key="GridCell.Tab.0.bottom" timestamp="1585561597228">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587004734471" />
+    <state width="1241" height="254" key="GridCell.Tab.0.bottom" timestamp="1586684196989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1242" height="254" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585561597228" />
-    <state width="1242" height="254" key="GridCell.Tab.0.center" timestamp="1585561597227">
+    <state width="1241" height="254" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586684196989" />
+    <state width="1241" height="254" key="GridCell.Tab.0.center" timestamp="1586684196989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1242" height="254" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585561597227" />
-    <state width="1242" height="254" key="GridCell.Tab.0.left" timestamp="1585561597227">
+    <state width="1241" height="254" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586684196989" />
+    <state width="1241" height="254" key="GridCell.Tab.0.left" timestamp="1586684196988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1242" height="254" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585561597227" />
-    <state width="1242" height="254" key="GridCell.Tab.0.right" timestamp="1585561597228">
+    <state width="1241" height="254" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586684196988" />
+    <state width="1241" height="254" key="GridCell.Tab.0.right" timestamp="1586684196989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1242" height="254" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585561597228" />
-    <state width="1242" height="254" key="GridCell.Tab.1.bottom" timestamp="1585561597228">
+    <state width="1241" height="254" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586684196989" />
+    <state width="1241" height="254" key="GridCell.Tab.1.bottom" timestamp="1586684196990">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1242" height="254" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585561597228" />
-    <state width="1242" height="254" key="GridCell.Tab.1.center" timestamp="1585561597228">
+    <state width="1241" height="254" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586684196990" />
+    <state width="1241" height="254" key="GridCell.Tab.1.center" timestamp="1586684196989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1242" height="254" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585561597228" />
-    <state width="1242" height="254" key="GridCell.Tab.1.left" timestamp="1585561597228">
+    <state width="1241" height="254" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586684196989" />
+    <state width="1241" height="254" key="GridCell.Tab.1.left" timestamp="1586684196989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1242" height="254" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585561597228" />
-    <state width="1242" height="254" key="GridCell.Tab.1.right" timestamp="1585561597228">
+    <state width="1241" height="254" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586684196989" />
+    <state width="1241" height="254" key="GridCell.Tab.1.right" timestamp="1586684196989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1242" height="254" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585561597228" />
+    <state width="1241" height="254" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586684196989" />
+    <state width="1241" height="254" key="GridCell.Tab.2.bottom" timestamp="1586684196990">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1241" height="254" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586684196990" />
+    <state width="1241" height="254" key="GridCell.Tab.2.center" timestamp="1586684196990">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1241" height="254" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1586684196990" />
+    <state width="1241" height="254" key="GridCell.Tab.2.left" timestamp="1586684196990">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1241" height="254" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1586684196990" />
+    <state width="1241" height="254" key="GridCell.Tab.2.right" timestamp="1586684196990">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1241" height="254" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1586684196990" />
+    <state x="349" y="254" key="MavenRunHelper.GoalEditor" timestamp="1586581681816">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="254" key="MavenRunHelper.GoalEditor/0.0.1536.824@0.0.1536.824" timestamp="1586581681816" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1585030823974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -857,22 +823,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="561" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1585032222527" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1584512202724">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1585908314542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584512202724" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585908314542" />
     <state width="602" height="338" key="javadoc.popup" timestamp="1584511271370">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="628" height="400" key="javadoc.popup.new" timestamp="1585200525308">
+    <state width="628" height="400" key="javadoc.popup.new" timestamp="1586397825829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="628" height="400" key="javadoc.popup.new/0.0.1536.824@0.0.1536.824" timestamp="1585200525308" />
+    <state width="628" height="400" key="javadoc.popup.new/0.0.1536.824@0.0.1536.824" timestamp="1586397825829" />
     <state width="602" height="338" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1584511271370" />
-    <state x="178" y="108" key="new project wizard" timestamp="1585029121295">
+    <state x="102" y="124" key="new project wizard" timestamp="1586569222431">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="108" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1585029121295" />
+    <state x="102" y="124" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1586569222431" />
     <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1584524073443">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -977,10 +943,11 @@
           <line>33</line>
           <option name="timeStamp" value="136" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://G:/jdk/jdk1.8.0_171/src.zip!/java/lang/Math.java</url>
-          <line>1182</line>
-          <option name="timeStamp" value="137" />
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/jdbc/src/main/java/org/example/Main.java</url>
+          <line>33</line>
+          <properties field="result" class="org.example.Main" />
+          <option name="timeStamp" value="138" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
