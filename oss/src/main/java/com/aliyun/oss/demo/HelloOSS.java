@@ -43,16 +43,8 @@ import org.apache.log4j.PropertyConfigurator;
 public class HelloOSS {
     static Logger logger = Logger.getLogger(HelloOSS.class);
 
-    // endpoint是访问OSS的域名。如果您已经在OSS的控制台上 创建了Bucket，请在控制台上查看域名。
-    // 如果您还没有创建Bucket，endpoint选择请参看文档中心的“开发人员指南 > 基本概念 > 访问域名”，
-    // 链接地址是：https://help.aliyun.com/document_detail/oss/user_guide/oss_concept/endpoint.html?spm=5176.docoss/user_guide/endpoint_region
-    // endpoint的格式形如“http://oss-cn-hangzhou.aliyuncs.com/”，注意http://后不带bucket名称，
-    // 比如“http://bucket-name.oss-cn-hangzhou.aliyuncs.com”，是错误的endpoint，请去掉其中的“bucket-name”。
     private static String endpoint = "";
 
-    // accessKeyId和accessKeySecret是OSS的访问密钥，您可以在控制台上创建和查看，
-    // 创建和查看访问密钥的链接地址是：https://ak-console.aliyun.com/#/。
-    // 注意：accessKeyId和accessKeySecret前后都没有空格，从控制台复制时请检查并去除多余的空格。
     private static String accessKeyId = "";
     private static String accessKeySecret = "";
 
