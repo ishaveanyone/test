@@ -11,10 +11,10 @@ import java.util.List;
 
 public class T2Bucket {
     // Endpoint以杭州为例，其它Region请按实际情况填写。
-    static  String endpoint = "http://59.202.42.251";
+    static  String endpoint = "";
     // 阿里云主账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM账号进行API访问或日常运维，请登录 https://ram.console.aliyun.com 创建RAM账号。
-    static  String accessKeyId = "qAALhWQY2oMy1cwE";
-    static String accessKeySecret = "1XfG1fugfUt8v3BfoYEnCuVHlGQrYA";
+    static  String accessKeyId = "";
+    static String accessKeySecret = "";
     // 创建OSSClient实例。
     public static void main(String[] args) throws ParseException {
 //        getLocation();
