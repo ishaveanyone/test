@@ -10,11 +10,12 @@
         <module name="rpc" />
         <module name="websocket" />
         <module name="client" />
+        <module name="shape" />
         <module name="jdbc" />
         <module name="jdk7" />
         <module name="rmi" />
         <module name="oss" />
-        <module name="wpstopdftest" />
+        <module name="leetcode" />
         <module name="springboot2xx" />
         <module name="activemq" />
         <module name="guava" />
@@ -22,11 +23,12 @@
         <module name="springbootq" />
         <module name="recursive" />
         <module name="flowable" />
+        <module name="elasticSearch" />
         <module name="util" />
         <module name="asyc" />
         <module name="nacos" />
+        <module name="wpstopdftest" />
         <module name="quartz" />
-        <module name="leetcode" />
         <module name="officetopdf" />
         <module name="regexp" />
         <module name="poi" />
@@ -35,9 +37,8 @@
         <module name="redis" />
         <module name="easyexcel" />
         <module name="rabbitmq" />
-        <module name="fileupdaload" />
         <module name="liscence" />
-        <module name="elasticSearch" />
+        <module name="fileupdaload" />
         <module name="activiti" />
       </profile>
     </annotationProcessing>
@@ -93,6 +94,7 @@
       <module name="rqreport" target="7" />
       <module name="servelt.main" target="1.8" />
       <module name="servelt.test" target="1.8" />
+      <module name="shape" target="1.5" />
       <module name="skill-pool.servelt.main" target="1.8" />
       <module name="skill-pool.servelt.test" target="1.8" />
       <module name="skill-pool.test.juintest.main" target="1.8" />

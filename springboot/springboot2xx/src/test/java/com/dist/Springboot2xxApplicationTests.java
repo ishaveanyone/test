@@ -6,6 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Queue;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class Springboot2xxApplicationTests {
@@ -30,4 +34,10 @@ public class Springboot2xxApplicationTests {
 //		exitService.exit();
 	}
 
+
+	public static void main(String[] args) {
+		Queue queue=new q
+	}
 }
+
+
