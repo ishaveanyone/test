@@ -11,7 +11,7 @@ import javax.jms.*;
 import java.io.IOException;
 import java.util.function.Consumer;
 
-public class TestQueneConsumer {
+public class TestTopicConsumer {
     //测试连接mq
     public static void main(String[] args) throws JMSException {
         //建立连接工厂，单例

@@ -5,5 +5,5 @@
 
 package com.dist.thread;
 
-public class Metux {
+public class Metux extends A {
 }

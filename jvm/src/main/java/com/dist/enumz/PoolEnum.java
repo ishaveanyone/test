@@ -11,6 +11,11 @@ public enum  PoolEnum {
         }
     }
 
+    @Override
+    public String toString() {
+     return this.name().toLowerCase();
+    }
+
     public Object getObject() {
         return object;
     }

@@ -10,18 +10,18 @@
         <module name="rpc" />
         <module name="websocket" />
         <module name="client" />
-        <module name="shape" />
+        <module name="springboot2xx" />
         <module name="jdbc" />
         <module name="jdk7" />
         <module name="rmi" />
         <module name="oss" />
+        <module name="designpattern" />
         <module name="leetcode" />
-        <module name="springboot2xx" />
+        <module name="shape" />
         <module name="activemq" />
         <module name="guava" />
         <module name="pgsql" />
         <module name="springbootq" />
-        <module name="recursive" />
         <module name="flowable" />
         <module name="elasticSearch" />
         <module name="util" />
@@ -35,10 +35,12 @@
         <module name="springdubbo" />
         <module name="rqreport" />
         <module name="redis" />
+        <module name="aop" />
         <module name="easyexcel" />
         <module name="rabbitmq" />
-        <module name="liscence" />
         <module name="fileupdaload" />
+        <module name="liscence" />
+        <module name="recursive" />
         <module name="activiti" />
       </profile>
     </annotationProcessing>
@@ -46,6 +48,7 @@
       <module name="activemq" target="1.8" />
       <module name="activiti" target="1.7" />
       <module name="akka" target="1.8" />
+      <module name="aop" target="1.8" />
       <module name="asyc" target="1.8" />
       <module name="client" target="1.6" />
       <module name="com.dist.jdbcpool.main" target="1.8" />
@@ -56,6 +59,7 @@
       <module name="com.dist.servelt.test" target="1.8" />
       <module name="com.dist.test.juintest.main" target="1.8" />
       <module name="com.dist.test.juintest.test" target="1.8" />
+      <module name="designpattern" target="1.5" />
       <module name="easyexcel" target="1.8" />
       <module name="elasticSearch" target="1.5" />
       <module name="fileupdaload" target="1.8" />
@@ -115,6 +119,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="activemq" options="-parameters" />
+      <module name="aop" options="-parameters" />
       <module name="client" options="" />
       <module name="fileupdaload" options="-parameters" />
       <module name="liscence" options="-parameters" />

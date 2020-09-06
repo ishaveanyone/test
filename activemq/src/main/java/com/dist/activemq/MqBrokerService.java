@@ -5,9 +5,14 @@
 
 package com.dist.activemq;
 
-public class BrokerService {
+import org.apache.activemq.broker.BrokerService;
 
-    public static void main(String[] args) {
-        
+public class MqBrokerService {
+
+    public static void main(String[] args) throws Exception {
+        BrokerService brokerService=new BrokerService();
+        brokerService.setUseJmx(true);
+        brokerService.addConnector("tcp://localhost:61616");
+        brokerService.start();
     }
 }

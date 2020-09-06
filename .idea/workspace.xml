@@ -2,27 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="240a68e6-51f3-494a-a694-0217fa4996e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/org/example/EsClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/org/example/EsDocumentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/org/example/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/org/example/PreIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/org/example/RestoreData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/collection/QueneBak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/CallableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/RunnableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/SynchronizedDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/ThreadPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/ThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shape/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/springboot2xx/src/test/java/com/dist/Springboot2xxApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/springboot2xx/src/test/java/com/dist/Springboot2xxApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/activemq.iml" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/activemq.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/MqBrokerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/MqBrokerConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/MqBrokerProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/MqBrokerProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/MqBrokerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/MqBrokerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/TestQueneConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/TestQueneConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/TestQueneProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/TestQueneProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/TestSubConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/TestSubConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/TestSubProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/TestSubProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/TestTopicConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/TestTopicConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/TestTopicProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/TestTopicProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/TestTxConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/TestTxConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/TestTxProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/src/main/java/com/dist/activemq/TestTxProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/src/main/java/com/example/aop/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/aop/src/main/java/com/example/aop/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/src/main/java/com/example/aop/MyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/aop/src/main/java/com/example/aop/MyAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/src/main/java/com/example/aop/MyBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/aop/src/main/java/com/example/aop/MyBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/src/main/java/com/example/aop/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/aop/src/main/java/com/example/aop/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/src/main/java/com/example/aop/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/aop/src/main/java/com/example/aop/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/src/main/java/com/example/aop/service/ServiceA.java" beforeDir="false" afterPath="$PROJECT_DIR$/aop/src/main/java/com/example/aop/service/ServiceA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/src/main/java/org/example/TestExcules.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/main/java/org/example/TestExcules.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/src/main/java/com/dist/ForkJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/ForkJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/src/main/java/com/dist/TreeBak.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/TreeBak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/src/main/java/com/dist/enumz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/enumz/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/src/main/java/com/dist/enumz/PoolEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/enumz/PoolEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/src/main/java/com/dist/proxy/cglibproxy/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/proxy/cglibproxy/ProxyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/DeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/DeadLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/InterruptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/InterruptTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/Lock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/Metux.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/Metux.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/ThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/ThreadPoolTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/org/example/FindMedianSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/org/example/FindMedianSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/org/example/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/org/example/LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/org/example/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/org/example/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,35 +187,35 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mytest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\wpstopdftest\src\main\resources\dll" />
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\MyHttpServletContainer\src\main\webapp" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.dist" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\jdbc\src\main\resources" />
-      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\activiti" />
-      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool" />
-      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\poi\src\main\java\org\example" />
-      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\wpstopdftest\src\main\resources" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dist.activemq" />
       <recent name="org.example" />
       <recent name="com.dist.pgsql" />
       <recent name="com.dist.wpstopdftest" />
       <recent name="com.dist" />
-      <recent name="com.dist.liscence" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\wpstopdftest\src\main\resources\dll" />
-      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\MyHttpServletContainer\src\main\webapp" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\activemq\src\main\java\com\dist\activemq" />
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\jdbc\src\main\resources" />
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\activiti" />
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool" />
+      <recent name="H:\IDEAWORKSPACE\xupp\skill-pool\poi\src\main\java\org\example" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -226,83 +246,68 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PreIndex.searchRegxp">
-    <configuration name="PreIndex.searchByIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="elasticSearch" />
+  <component name="RunManager" selected="Application.MyRecursiveTask">
+    <configuration name="FindMedianSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.FindMedianSortedArrays" />
+      <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PreIndex" />
-      <option name="METHOD_NAME" value="searchByIds" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreIndex.searchFuzzy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="elasticSearch" />
+    <configuration name="InterruptTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dist.thread.InterruptTest" />
+      <module name="jvm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="com.dist.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PreIndex" />
-      <option name="METHOD_NAME" value="searchFuzzy" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreIndex.searchPrefix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="elasticSearch" />
+    <configuration name="Lock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dist.thread.Lock" />
+      <module name="jvm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="com.dist.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PreIndex" />
-      <option name="METHOD_NAME" value="searchPrefix" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreIndex.searchRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="elasticSearch" />
+    <configuration name="MyRecursiveAction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dist.MyRecursiveAction" />
+      <module name="jvm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="com.dist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PreIndex" />
-      <option name="METHOD_NAME" value="searchRange" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreIndex.searchRegxp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="elasticSearch" />
+    <configuration name="MyRecursiveTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dist.MyRecursiveTask" />
+      <module name="jvm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="com.dist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PreIndex" />
-      <option name="METHOD_NAME" value="searchRegxp" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -310,6 +315,13 @@
     <configuration name="ActivemqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="activemq" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dist.activemq.ActivemqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="aop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.aop.AopApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -412,6 +424,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.InterruptTest" />
+      <item itemvalue="Application.Lock" />
+      <item itemvalue="Application.FindMedianSortedArrays" />
       <item itemvalue="Spring Boot.ClientApplication" />
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.SpringdubboApplication" />
@@ -425,19 +440,17 @@
       <item itemvalue="Spring Boot.LiscenceApplication" />
       <item itemvalue="Spring Boot.WpstopdftestApplication" />
       <item itemvalue="Spring Boot.FileupdaloadApplication" />
-      <item itemvalue="JUnit.PreIndex.searchByIds" />
-      <item itemvalue="JUnit.PreIndex.searchPrefix" />
-      <item itemvalue="JUnit.PreIndex.searchFuzzy" />
-      <item itemvalue="JUnit.PreIndex.searchRange" />
-      <item itemvalue="JUnit.PreIndex.searchRegxp" />
+      <item itemvalue="Spring Boot.AopApplication" />
+      <item itemvalue="Application.MyRecursiveTask" />
+      <item itemvalue="Application.MyRecursiveAction" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PreIndex.searchRegxp" />
-        <item itemvalue="JUnit.PreIndex.searchRange" />
-        <item itemvalue="JUnit.PreIndex.searchFuzzy" />
-        <item itemvalue="JUnit.PreIndex.searchPrefix" />
-        <item itemvalue="JUnit.PreIndex.searchByIds" />
+        <item itemvalue="Application.MyRecursiveTask" />
+        <item itemvalue="Application.MyRecursiveAction" />
+        <item itemvalue="Application.FindMedianSortedArrays" />
+        <item itemvalue="Application.Lock" />
+        <item itemvalue="Application.InterruptTest" />
       </list>
     </recent_temporary>
   </component>
@@ -454,7 +467,7 @@
     </option>
   </component>
   <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_NON_PUBLIC,SHOW_FIELDS" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_NON_PUBLIC" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -635,7 +648,20 @@
       <workItem from="1595743615360" duration="1196000" />
       <workItem from="1595815605921" duration="602000" />
       <workItem from="1596330404529" duration="2493000" />
-      <workItem from="1596340590791" duration="19330000" />
+      <workItem from="1596340590791" duration="24956000" />
+      <workItem from="1596951435250" duration="8157000" />
+      <workItem from="1597029232971" duration="1220000" />
+      <workItem from="1597808506552" duration="15385000" />
+      <workItem from="1597921235050" duration="2128000" />
+      <workItem from="1597989909994" duration="4458000" />
+      <workItem from="1598146729310" duration="5474000" />
+      <workItem from="1598280096298" duration="586000" />
+      <workItem from="1598578282873" duration="41000" />
+      <workItem from="1598590396849" duration="5777000" />
+      <workItem from="1598661132092" duration="10975000" />
+      <workItem from="1599186646069" duration="1875000" />
+      <workItem from="1599269216413" duration="2045000" />
+      <workItem from="1599354052599" duration="10304000" />
     </task>
     <task id="LOCAL-00001" summary="ccc">
       <created>1569720783446</created>
@@ -749,7 +775,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587111085865</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="es学习代码">
+      <created>1596681688004</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1596681688004</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -783,65 +816,102 @@
     <MESSAGE value="activiti 工作流引擎的学习" />
     <MESSAGE value="删除" />
     <MESSAGE value="提交一些测试代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交一些测试代码" />
+    <MESSAGE value="es学习代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="es学习代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1595388582176">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1595388582176" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1595557781017">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596978103015">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595557781017" />
-    <state width="399" height="466" key="DebuggerActiveHint" timestamp="1595556475299">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1596978103015" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1599363691891">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="399" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1595556475299" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1596595934849">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1599363691891" />
+    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1596681678933">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596595934849" />
-    <state width="1493" height="249" key="GridCell.Tab.0.bottom" timestamp="1596595139729">
+    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596681678933" />
+    <state width="554" height="466" key="DebuggerActiveHint" timestamp="1599370251997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="249" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596595139729" />
-    <state width="1493" height="249" key="GridCell.Tab.0.center" timestamp="1596595139729">
+    <state width="554" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1599370251997" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1598603124464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="249" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596595139729" />
-    <state width="1493" height="249" key="GridCell.Tab.0.left" timestamp="1596595139729">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598603124464" />
+    <state width="1478" height="155" key="GridCell.Tab.0.bottom" timestamp="1599371225734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="249" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596595139729" />
-    <state width="1493" height="249" key="GridCell.Tab.0.right" timestamp="1596595139729">
+    <state width="1478" height="155" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599371225734" />
+    <state width="1478" height="155" key="GridCell.Tab.0.center" timestamp="1599371225734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="249" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596595139729" />
-    <state width="1493" height="254" key="GridCell.Tab.1.bottom" timestamp="1596415388981">
+    <state width="1478" height="155" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599371225734" />
+    <state width="1478" height="155" key="GridCell.Tab.0.left" timestamp="1599371225734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="254" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596415388981" />
-    <state width="1493" height="254" key="GridCell.Tab.1.center" timestamp="1596415388981">
+    <state width="1478" height="155" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599371225734" />
+    <state width="1478" height="155" key="GridCell.Tab.0.right" timestamp="1599371225734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="254" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596415388981" />
-    <state width="1493" height="254" key="GridCell.Tab.1.left" timestamp="1596415388981">
+    <state width="1478" height="155" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599371225734" />
+    <state width="1478" height="217" key="GridCell.Tab.1.bottom" timestamp="1599370489451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="254" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596415388981" />
-    <state width="1493" height="254" key="GridCell.Tab.1.right" timestamp="1596415388981">
+    <state width="1478" height="217" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599370489451" />
+    <state width="1478" height="217" key="GridCell.Tab.1.center" timestamp="1599370489450">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="254" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596415388981" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1596443822290">
+    <state width="1478" height="217" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599370489450" />
+    <state width="1478" height="217" key="GridCell.Tab.1.left" timestamp="1599370489450">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596443822290" />
-    <state x="102" y="124" key="new project wizard" timestamp="1588920729927">
+    <state width="1478" height="217" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599370489450" />
+    <state width="1478" height="217" key="GridCell.Tab.1.right" timestamp="1599370489450">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="102" y="124" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1588920729927" />
+    <state width="1478" height="217" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599370489450" />
+    <state width="1493" height="263" key="GridCell.Tab.2.bottom" timestamp="1598165934811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="263" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598165934811" />
+    <state width="1493" height="263" key="GridCell.Tab.2.center" timestamp="1598165934811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="263" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1598165934811" />
+    <state width="1493" height="263" key="GridCell.Tab.2.left" timestamp="1598165934811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="263" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1598165934811" />
+    <state width="1493" height="263" key="GridCell.Tab.2.right" timestamp="1598165934811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="263" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1598165934811" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1599269335286">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599269335286" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1598669840287">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598669840287" />
+    <state x="178" y="114" key="new project wizard" timestamp="1598164717290">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="114" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1598164717290" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1596977217087">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1596977217087" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1597995814497">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1597995814497" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -902,6 +972,14 @@
           </properties>
           <option name="timeStamp" value="142" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/org/example/FindMedianSortedArrays.java</url>
+          <line>15</line>
+          <properties class="org.example.FindMedianSortedArrays" method="findMedianSortedArrays">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/liscence/src/main/java/com/dist/liscence/RegisterFilter.java</url>
           <line>36</line>
@@ -943,23 +1021,13 @@
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/leetcode/src/main/java/org/example/Main.java</url>
-          <line>48</line>
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/org/example/Solution.java</url>
+          <line>73</line>
           <option name="timeStamp" value="133" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/leetcode/src/main/java/org/example/Main.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="134" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/leetcode/src/main/java/org/example/Main.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="135" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/leetcode/src/main/java/org/example/Main.java</url>
-          <line>33</line>
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/org/example/Solution.java</url>
+          <line>54</line>
           <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -967,10 +1035,151 @@
           <line>26</line>
           <option name="timeStamp" value="138" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-jms/5.2.1.RELEASE/spring-jms-5.2.1.RELEASE.jar!/org/springframework/jms/connection/CachedMessageProducer.class</url>
+          <line>62</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/org/example/Solution.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/DeadLock.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/DeadLock.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/DeadLock.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aop/src/main/java/com/example/aop/LogAspect.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aop/src/main/java/com/example/aop/LogAspect.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aop/src/main/java/com/example/aop/LogAspect.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aop/src/main/java/com/example/aop/LogAspect.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aop/src/main/java/com/example/aop/LogAspect.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aop/src/main/java/com/example/aop/LogAspect.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aop/src/main/java/com/example/aop/LogAspect.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aop/src/main/java/com/example/aop/LogAspect.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aop/src/main/java/com/example/aop/LogAspect.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aop/src/main/java/com/example/aop/LogAspect.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aop/src/main/java/com/example/aop/LogAspect.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/jvm/src/main/java/com/dist/thread/InterruptTest.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://G:/jdk/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
+          <line>206</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://G:/jdk/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>1197</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://G:/jdk/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>1260</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/org/example/FindMedianSortedArrays.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/org/example/FindMedianSortedArrays.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/jvm/src/main/java/com/dist/ForkJoin.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jvm/src/main/java/com/dist/ForkJoin.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/jvm/src/main/java/com/dist/ForkJoin.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/jvm/src/main/java/com/dist/ForkJoin.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jvm/src/main/java/com/dist/ForkJoin.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/skill_pool$TestTopicConsumer.ic" NAME="TestTopicConsumer Coverage Results" MODIFIED="1596952013716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.dist.activemq.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/skill_pool$TestQueneProvider.ic" NAME="TestQueneProvider Coverage Results" MODIFIED="1596951796898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.dist.activemq.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/skill_pool$StringBak.ic" NAME="StringBak Coverage Results" MODIFIED="1584586036448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.dist.*</FILTER>
     </SUITE>

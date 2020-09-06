@@ -16,9 +16,9 @@ import java.lang.reflect.Method;
  */
 public class ProxyFactory implements MethodInterceptor {
 
-    private P target;//维护一个目标对象
-    public ProxyFactory(Object target) {
-        this.target = (P)target;
+    private UserDao target;//维护一个目标对象
+    public ProxyFactory(UserDao target) {
+        this.target = target;
     }
 
     //为目标对象生成代理对象

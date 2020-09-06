@@ -4,7 +4,7 @@ import org.apache.activemq.ActiveMQConnectionFactory;
 
 import javax.jms.*;
 
-public class TestProvider {
+public class TestQueneProvider {
 
     //测试连接mq
     public static void main(String[] args) throws JMSException {

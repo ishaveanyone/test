@@ -14,8 +14,8 @@ public class TestTxProvider {
         //建立连接
         Connection connection = connectionFactory.createConnection();
 
-        //创建一个服务对象session
-        Session session = connection.createSession(false,Session.AUTO_ACKNOWLEDGE);
+        //创建一个服务对象session   其中的第一个参数是标识是不是事务 自动提交 ，就是是不是自动吧消息放队列中
+        Session session = connection.createSession(true,Session.AUTO_ACKNOWLEDGE);
         //创建一个目的地Destination，,即ActiveMQ的接收点
         Topic topic = session.createTopic("test-sub");
         //创建一个生产者，并将目的地告诉他 默认是持久化的
@@ -27,8 +27,11 @@ public class TestTxProvider {
             Message message = session.createTextMessage("hello queue message"+i);
             //生产者发送消息
             producer.send(message);
+            if (i==3){
+                session.rollback();
+            }
+            session.commit();
         }
-
         //关闭连接
         producer.close();
         session.close();
