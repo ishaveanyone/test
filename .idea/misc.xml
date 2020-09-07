@@ -42,6 +42,7 @@
         <option value="$PROJECT_DIR$/shape/pom.xml" />
         <option value="$PROJECT_DIR$/designpattern/pom.xml" />
         <option value="$PROJECT_DIR$/aop/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

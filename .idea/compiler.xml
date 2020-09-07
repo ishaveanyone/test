@@ -12,35 +12,36 @@
         <module name="client" />
         <module name="springboot2xx" />
         <module name="jdbc" />
+        <module name="easyexcel" />
         <module name="jdk7" />
         <module name="rmi" />
         <module name="oss" />
         <module name="designpattern" />
-        <module name="leetcode" />
+        <module name="wpstopdftest" />
         <module name="shape" />
+        <module name="kafka" />
         <module name="activemq" />
         <module name="guava" />
         <module name="pgsql" />
         <module name="springbootq" />
+        <module name="recursive" />
         <module name="flowable" />
-        <module name="elasticSearch" />
         <module name="util" />
         <module name="asyc" />
         <module name="nacos" />
-        <module name="wpstopdftest" />
-        <module name="quartz" />
-        <module name="officetopdf" />
         <module name="regexp" />
+        <module name="leetcode" />
+        <module name="officetopdf" />
         <module name="poi" />
         <module name="springdubbo" />
         <module name="rqreport" />
         <module name="redis" />
         <module name="aop" />
-        <module name="easyexcel" />
+        <module name="quartz" />
         <module name="rabbitmq" />
         <module name="fileupdaload" />
         <module name="liscence" />
-        <module name="recursive" />
+        <module name="elasticSearch" />
         <module name="activiti" />
       </profile>
     </annotationProcessing>
@@ -72,6 +73,7 @@
       <module name="jdbcpool.test" target="1.8" />
       <module name="jdk7" target="1.7" />
       <module name="jvm" target="1.8" />
+      <module name="kafka" target="1.5" />
       <module name="leetcode" target="1.5" />
       <module name="liscence" target="1.8" />
       <module name="mongo" target="1.5" />

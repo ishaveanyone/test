@@ -34,6 +34,7 @@
       <module fileurl="file://$PROJECT_DIR$/jvm/jdk7/jdk7.iml" filepath="$PROJECT_DIR$/jvm/jdk7/jdk7.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/juintest.iml" filepath="$PROJECT_DIR$/.idea/modules/juintest.iml" />
       <module fileurl="file://$PROJECT_DIR$/jvm/jvm.iml" filepath="$PROJECT_DIR$/jvm/jvm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka/kafka.iml" filepath="$PROJECT_DIR$/kafka/kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/konlit/konlit.iml" filepath="$PROJECT_DIR$/konlit/konlit.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/liscence/liscence.iml" filepath="$PROJECT_DIR$/liscence/liscence.iml" />
